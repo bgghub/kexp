@@ -29,8 +29,12 @@
 *.sn*
 *.sa*
 *.sg1
+*.ss1
+*.ss2
+*.ss3
 
 .vscode/*
+.vs/*
 
 # nix stuff
 .direnv

@@ -20,6 +20,6 @@ PokemonMansionB2F_Object:
 	object_event  7,  8, SPRITE_POKEDEX, STAY, NONE, 1 ; Book 1
 	object_event 26,  6, SPRITE_POKEDEX, STAY, NONE, 2 ; Book 2
 	object_event  8,  8, SPRITE_POKE_BALL, STAY, NONE, 3, TM_PSYCHIC_M
-	object_event 25,  6, SPRITE_POKE_BALL, STAY, NONE, 4, RARE_CANDY
+	object_event 25,  6, SPRITE_POKE_BALL, STAY, NONE, 4, MAX_ELIXER
 
 	def_warps_to POKEMON_MANSION_B2F

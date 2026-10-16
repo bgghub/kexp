@@ -1,6 +1,6 @@
 	db DEX_LUXWAN ; pokedex id
 
-	db  72, 105,  75,  70,  63
+	db  72, 105,  75,  80,  63
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    TOXIC,        HORN_DRILL,   \
-	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         THUNDERBOLT,  \
+	     BODY_SLAM,    DOUBLE_EDGE,  RAGE,         THUNDERBOLT,  \
 	     THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
 	     FLY

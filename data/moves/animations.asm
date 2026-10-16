@@ -186,6 +186,9 @@ AttackAnimationPointers:
 	dw NastyPlotAnim
 	dw UppercutAnim
 	dw PowderSnowAnim
+	dw ChargeBeamAnim
+	dw FlameChargeAnim
+	dw FallingDownAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -362,7 +365,6 @@ WingAttackAnim:
 
 WhirlwindAnim:
 	battle_anim WHIRLWIND, SUBANIM_1_TORNADO, 1, 6
-	battle_anim NO_MOVE, SE_SLIDE_ENEMY_MON_OFF
 	db -1 ; end
 
 FlyAnim:
@@ -1228,6 +1230,7 @@ PsywaveAnim:
 
 SplashAnim:
 	battle_anim SPLASH, SE_BOUNCE_UP_AND_DOWN
+	battle_anim DOUBLESLAP, SUBANIM_0_STAR_TWICE, 0, 5
 	db -1 ; end
 
 AcidArmorAnim:
@@ -1247,7 +1250,9 @@ ExplosionAnim:
 	db -1 ; end
 
 FurySwipesAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
 	battle_anim FURY_SWIPES, SUBANIM_0_SCRATCHES, 0, 4
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 BonemerangAnim:
@@ -1355,6 +1360,36 @@ KowtowCleaveAnim:
 
 DisarmingVoiceAnim:
 	battle_anim DISARMING_VOICE, SUBANIM_0_HEART_1_MUSIC, 1, 6
+	db -1 ; end
+
+ChargeBeamAnim:
+	battle_anim DOUBLE_TEAM, SE_SPIRAL_BALLS_INWARD
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim THUNDER, SUBANIM_1_LIGHTNING, 1, 6
+	db -1 ; end
+
+FlameChargeAnim:
+	battle_anim DOUBLE_TEAM, SE_SPIRAL_BALLS_INWARD
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim FIRE_SPIN, SUBANIM_1_FLAME_COLUMN_1, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
+	db -1 ; end
+
+FallingDownAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim GROWTH, SE_SLIDE_MON_HALF_OFF
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim THRASH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 BallTossAnim:

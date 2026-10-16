@@ -1,26 +1,26 @@
 Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 27, RATICATE
-	db 28, PIDGEOTTO
-	db 30, BALUMBA
-	db 28, GLOOM
-	db 28, WEEPINBELL
-	db 29, TOEDSCOOL
-	db 29, TOEDSCOOL
-	db 28, TANGELA
-	db 30, TANGELA
-	db 32, TANGELA
+	db 52, WIGGLYTUFF
+	db 52, PIDGEOT
+	db 52, BALUMBA
+	db 52, GLOOM
+	db 52, WEEPINBELL
+	db 52, TOEDSCOOL
+	db 52, TOEDSCOOL
+	db 52, TANGELA
+	db 52, TANGELA
+	db 52, TANGELA
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
-	db 25, TENTACOOL
-	db 30, TENTACOOL
-	db 35, BLOTTLE
-	db 35, BLOTTLE
-	db 30, CHEEP
-	db 30, CHEEP
-	db 30, TENTACRUEL
-	db 35, TENTACRUEL
-	db 35, PENDRAKEN
-	db 35, SHARPOON
+	db 50, POLIWHIRL
+	db 50, TENTACOOL
+	db 50, BLOTTLE
+	db 50, BLOTTLE
+	db 50, CHEEP
+	db 50, CHEEP
+	db 50, TENTACRUEL
+	db 50, TENTACRUEL
+	db 50, PENDRAKEN
+	db 50, SHARPOON
 	end_water_wildmons

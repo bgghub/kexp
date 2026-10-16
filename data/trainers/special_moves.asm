@@ -6,11 +6,18 @@
 SpecialTrainerMoves:
 
 	db YUJIROU, 1	; Yujirou 0 badges
-	db 3, 4, LICK
+	db 1, 4, MEGA_PUNCH
+	db 2, 4, FLASH
+	db 3, 3, DRAININGKISS
+	db 3, 4, TOXIC
 	db 0
 	
 	db YUJIROU, 2	; Yujirou 1 badge
-	db 3, 4, LICK
+	db 1, 4, MEGA_PUNCH
+	db 2, 4, FLASH
+	db 4, 1, DEFENSE_CURL
+	db 4, 2, DRAININGKISS
+	db 4, 4, TOXIC
 	db 0
 	
 	db YUJIROU, 3	; Yujirou 2 badges
@@ -104,8 +111,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1		; Brock 0 badges
-	db 3, 3, BIND
-	db 3, 4, BIDE
+	db 2, 3, BARRAGE
+	db 2, 4, FISSURE
+	db 4, 1, FISSURE
+	db 4, 2, BIDE
 	db 0
 	
 	db BROCK, 2		; Brock 1 badge
@@ -177,29 +186,49 @@ SpecialTrainerMoves:
 	db 5, 4, BIND
 	db 0
 
+	db SUPER_NERD, 2 ; fossil guy
+	db 1, 1, FURY_ATTACK
+	db 2, 1, FLY
+	db 3, 2, IRON_HEAD
+	db 0
+
 	db JESSIE_JAMES, 1	; Mt. Moon J&J
-	db 3, 3, POISON_GAS
+	db 1, 1, CUT
+	db 3, 4, FIRE_BLAST
 	db 0
 
 	db RIVAL1, 11		; Cerulean City Rival w/Wartortle
-	db 2, 2, THUNDER_WAVE
+	db 1, 2, DIG
+	db 2, 2, FLASH
+	db 3, 3, MEGA_DRAIN
+	db 4, 1, BUBBLEBEAM
+	db 4, 2, SPLASH
 	db 0
 
 	db RIVAL1, 12		; Cerulean City Rival w/Ivysaur
-	db 2, 2, THUNDER_WAVE
+	db 1, 2, DIG
+	db 2, 2, FLASH
+	db 3, 1, DIG
+	db 4, 1, ACID
 	db 0
 
 	db RIVAL1, 13		; Cerulean City Rival w/Charmeleon
-	db 2, 2, THUNDER_WAVE
+	db 1, 2, DIG
+	db 2, 2, FLASH
+	db 3, 3, WHIRLWIND
+	db 4, 3, DIG
 	db 0
 
 	db RIVAL1, 14		; Cerulean City Rival w/Eevee
-	db 1, 1, PECK
+	db 1, 2, DIG
+	db 2, 1, BUBBLEBEAM
+	db 2, 2, FLASH
 	db 0
 
 	db RIVAL1, 15		; Cerulean City Rival w/Pikachu
-	db 1, 1, PECK
-	db 4, 1, THUNDERSHOCK
+	db 1, 2, DIG
+	db 2, 1, BUBBLEBEAM
+	db 2, 2, FLASH
 	db 0
 	
 	db MISTY, 1		; Misty 0 badges
@@ -210,10 +239,9 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 2		; Misty 1 badge
-	db 1, 3, LEER
-	db 2, 3, PECK
-	db 3, 2, SCRATCH
-	db 4, 1, SWIFT
+	db 1, 1, BITE
+	db 2, 1, BUBBLEBEAM
+	db 4, 1, HORN_DRILL
 	db 4, 4, BUBBLEBEAM
 	db 0
 	
@@ -227,26 +255,56 @@ SpecialTrainerMoves:
 	db 5, 4, BUBBLEBEAM
 	db 0
 
+	db ROCKET, 5
+	db 1, 1, DIG
+	db 2, 4, DIG
+	db 3, 1, DIG
+	db 0
+
 	db RIVAL2, 1		; SS Anne Rival w/Wartortle
-	db 3, 1, THUNDER_WAVE
+	db 1, 2, DIG
+	db 1, 4, CUT
+	db 2, 2, FLASH
+	db 3, 3, MEGA_DRAIN
+	db 3, 4, LEECH_SEED
+	db 4, 1, BUBBLEBEAM
+	db 4, 4, SPLASH
 	db 0
 
 	db RIVAL2, 2		; SS Anne Rival w/Ivysaur
-	db 3, 1, THUNDER_WAVE
-	db 4, 1, TACKLE
+	db 1, 2, DIG
+	db 1, 4, CUT
+	db 2, 2, FLASH
+	db 3, 1, DIG
+	db 3, 2, BODY_SLAM
+	db 4, 1, ACID
+	db 4, 4, RAZOR_LEAF
 	db 0
 
 	db RIVAL2, 3		; SS Anne Rival w/Charmeleon
-	db 3, 1, THUNDER_WAVE
+	db 1, 2, DIG
+	db 1, 4, CUT
+	db 2, 2, FLASH
+	db 3, 3, WHIRLWIND
+	db 3, 4, BODY_SLAM
+	db 4, 2, DIG
 	db 0
 	
 	db RIVAL2, 4		; SS Anne Rival w/Eevee
-	db 1, 1, PECK
+	db 1, 2, DIG
+	db 1, 4, CUT
+	db 2, 1, BUBBLEBEAM
+	db 2, 2, FLASH
+	db 3, 1, BODY_SLAM
+	db 4, 2, PAY_DAY
 	db 0
 
 	db RIVAL2, 5		; SS Anne Rival w/Pikachu
-	db 1, 1, PECK
-	db 4, 2, THUNDERSHOCK
+	db 1, 2, DIG
+	db 1, 4, CUT
+	db 2, 1, BUBBLEBEAM
+	db 2, 2, FLASH
+	db 3, 1, BODY_SLAM
 	db 0
 	
 	db LT_SURGE, 1		; Surge 0 badges
@@ -264,13 +322,13 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE, 3		; Surge 2 badges
-	db 2, 4, THUNDER_WAVE
-	db 3, 1, THUNDER_WAVE
-	db 4, 3, THUNDERBOLT
-	db 4, 4, THUNDER_WAVE
-	db 5, 1, THUNDERBOLT
-	db 5, 2, MEGA_PUNCH
-	db 5, 4, DOUBLE_TEAM
+	db 3, 1, TAKE_DOWN
+	db 3, 2, CHARGE_BEAM
+	db 3, 4, TOXIC
+	db 4, 2, CHARGE_BEAM
+	db 4, 4, ICE_PUNCH
+	db 5, 1, THUNDER_WAVE
+	db 5, 2, THUNDERBOLT
 	db 0
 	
 	db LT_SURGE, 4		; Surge 3 badges
@@ -325,70 +383,92 @@ SpecialTrainerMoves:
 	db 5, 2, MEGA_PUNCH
 	db 5, 4, SURF
 	db 0
+
+	db HIKER, 9
+	db 2, 2, THUNDER_WAVE
+	db 3, 3, EXPLOSION
+	db 4, 4, EXPLOSION
+	db 5, 4, EXPLOSION
+	db 0
 	
 	db RIVAL2, 6		; Pokemon Tower Rival w/Wartortle
-	db 1, 4, MIMIC
-	db 2, 1, BITE
-	db 3, 3, LEECH_SEED
-	db 3, 4, CONFUSION
-	db 4, 1, THUNDER_WAVE
+	db 1, 1, FLASH
+	db 2, 1, DIG
+	db 2, 2, BODY_SLAM
+	db 3, 1, CUT
+	db 3, 2, DIG
+	db 4, 3, MEGA_DRAIN
+	db 5, 1, MEGA_DRAIN
+	db 5, 3, BUBBLEBEAM
 	db 0
 
 	db RIVAL2, 7		; Pokemon Tower Rival w/Ivysaur
-	db 1, 4, MIMIC
-	db 2, 3, BUBBLEBEAM
-	db 2, 4, BIDE
-	db 3, 1, BITE
-	db 4, 1, THUNDER_WAVE
-	db 5, 3, CUT
+	db 1, 1, FLASH
+	db 2, 4, WHIRLWIND
+	db 3, 1, CUT
+	db 3, 2, DIG
+	db 4, 1, DIG
+	db 4, 2, BODY_SLAM
+	db 5, 3, SLUDGE
+	db 5, 4, RAZOR_LEAF
 	db 0
 
 	db RIVAL2, 8		; Pokemon Tower Rival w/Charmeleon
-	db 1, 4, MIMIC
-	db 2, 3, LEECH_SEED
-	db 2, 4, CONFUSION
-	db 3, 3, BUBBLEBEAM
-	db 3, 4, BIDE
-	db 4, 1, THUNDER_WAVE
-	db 5, 3, CUT
+	db 1, 1, FLASH
+	db 2, 3, MEGA_DRAIN
+	db 3, 1, CUT
+	db 3, 2, DIG
+	db 4, 4, WHIRLWIND
+	db 5, 1, DIG
+	db 5, 3, WHIRLWIND
 	db 0
 	
 	db RIVAL2, 9		; Pokemon Tower Rival w/Eevee
-	db 1, 1, PECK
-	db 3, 3, EMBER
-	db 4, 1, CUT
-	db 4, 4, DIG
-	db 5, 3, BODY_SLAM
+	db 1, 1, BUBBLEBEAM
+	db 1, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 3, 1, CUT
+	db 3, 2, DIG
+	db 4, 2, BODY_SLAM
+	db 4, 3, MEGA_PUNCH
+	db 5, 1, PAY_DAY
 	db 0
 
 	db RIVAL2, 10		; Pokemon Tower Rival w/Raichu
-	db 1, 1, PECK
-	db 2, 3, EMBER
-	db 4, 1, CUT
-	db 4, 4, DIG
-	db 5, 2, DOUBLE_TEAM
-	db 5, 4, QUICK_ATTACK
+	db 1, 1, BUBBLEBEAM
+	db 1, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 3, 1, CUT
+	db 3, 2, DIG
+	db 4, 2, BODY_SLAM
+	db 4, 3, MEGA_PUNCH
+	db 5, 1, PETAL_DANCE
 	db 0
 	
 	db JACK, 1
-	db 1, 4, LEER
-	db 3, 4, MEGA_PUNCH
-	db 4, 3, CUT
+	db 1, 2, KARATE_CHOP
+	db 1, 3, ROCK_SLIDE
+	db 1, 4, FURY_SWIPES
+	db 3, 3, SUBMISSION
+	db 4, 1, BULLET_PUNCH
 	db 0
 	
 	db JESSIE_JAMES, 2	; Rocket Hideout J&J
-	db 2, 1, WRAP
-	db 3, 1, WRAP
+	db 1, 1, CUT
+	db 1, 3, TAKE_DOWN
+	db 2, 1, MEGA_DRAIN
+	db 2, 2, ACID
+	db 3, 1, HYPNOSIS
+	db 4, 4, FIRE_BLAST
 	db 0
 	
 	db GIOVANNI, 1	; Rocket Hideout Giovanni
-	db 1, 1, FURY_ATTACK
-	db 1, 2, STRING_SHOT
-	DB 1, 4, POISON_STING
-	db 3, 2, MEGA_PUNCH
-	db 3, 4, TAIL_WHIP
-	db 4, 1, TAKE_DOWN
-	db 4, 4, SCREECH
+	db 1, 2, TAKE_DOWN
+	db 2, 4, HORN_DRILL
+	db 3, 2, FISSURE
+	db 3, 4, MEGA_DRAIN
+	db 4, 2, BUBBLEBEAM
+	db 4, 3, THUNDERBOLT
 	db 0
 
 	db ERIKA, 2		; Erika 1 badge
@@ -406,15 +486,14 @@ SpecialTrainerMoves:
 	db 0
 	
 	db ERIKA, 4		; Erika 3 badges
-	db 1, 1, GROWTH
-	db 1, 3, VINE_WHIP
-	db 2, 1, MEGA_DRAIN
-	db 2, 2, CUT
-	db 2, 4, SPORE
-	db 3, 3, SAND_ATTACK
-	db 4, 2, MEGA_DRAIN
-	db 5, 2, MEGA_DRAIN
-	db 5, 4, ACID
+	db 1, 3, MEGA_DRAIN
+	db 2, 2, EARTHQUAKE
+	db 3, 1, SPORE
+	db 3, 4, SWORDS_DANCE
+	db 4, 3, SWORDS_DANCE
+	db 5, 1, MEGA_DRAIN
+	db 5, 3, SLEEP_POWDER
+	db 5, 4, GROWTH
 	db 0
 	
 	db ERIKA, 5		; Erika 4 badges
@@ -454,10 +533,15 @@ SpecialTrainerMoves:
 	db 0
 	
 	db JESSIE_JAMES, 3	; Pokemon Tower J&J
-	db 2, 1, WRAP
-	db 3, 1, WRAP
-	db 5, 3, STUN_SPORE
-	db 5, 4, ACID
+	db 1, 1, FURY_SWIPES
+	db 1, 3, TAKE_DOWN
+	db 2, 1, MEGA_DRAIN
+	db 2, 2, EARTHQUAKE
+	db 2, 4, ACID
+	db 3, 1, DREAM_EATER
+	db 3, 4, HYPNOSIS
+	db 4, 3, FIRE_BLAST
+	db 4, 4, DAZZLE_GLEAM
 	db 0
 	
 	db KOGA, 2		; Koga 1 badge
@@ -488,17 +572,18 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOGA, 5		; Koga 4 badges
-	db 1, 1, TOXIC
-	db 1, 3, MEGA_DRAIN
-	db 2, 1, TOXIC
-	db 2, 2, SURF
-	db 2, 3, WRAP
-	db 3, 3, BODY_SLAM
-	db 3, 4, TOXIC
-	db 4, 4, TOXIC
-	db 5, 1, TOXIC
-	db 5, 2, FLY
-	db 5, 3, SLUDGE
+	db 1, 2, EXPLOSION
+	db 1, 3, TOXIC
+	db 2, 1, SURF
+	db 2, 3, TOXIC
+	db 2, 4, DOUBLE_TEAM
+	db 3, 1, TOXIC
+	db 3, 2, MINIMIZE
+	db 4, 1, PSYCHIC_M
+	db 4, 2, BLIZZARD
+	db 5, 2, DOUBLE_TEAM
+	db 5, 3, WING_ATTACK
+	db 5, 4, TOXIC
 	db 0
 	
 	db KOGA, 6		; Koga 5 badges
@@ -537,35 +622,39 @@ SpecialTrainerMoves:
 	db 0
 	
 	db KOICHI, 5		; Koichi 4 badges
-	db 1, 4, ROCK_SLIDE
-	db 2, 2, LEER
-	db 2, 3, DIG
-	db 2, 4, SEISMIC_TOSS
-	db 3, 1, MIMIC
-	db 3, 3, MEGA_KICK
-	db 5, 2, DIG
+	db 1, 1, EARTHQUAKE
+	db 1, 4, FIRE_BLAST
+	db 2, 3, SUBMISSION
+	db 2, 4, TAKE_DOWN
+	db 3, 1, SPLASH
+	db 3, 3, DIG
+	db 4, 3, BLIZZARD
+	db 5, 1, KARATE_CHOP
+	db 5, 2, PAY_DAY
 	db 0
 	
 	db KOICHI, 6		; Koichi 5 badges
-	db 1, 4, ROCK_SLIDE
-	db 2, 1, LOW_KICK
-	db 2, 2, LEER
-	db 2, 3, DIG
-	db 3, 1, MIMIC
-	db 3, 3, MEGA_KICK
-	db 5, 2, DIG
+	db 1, 1, EARTHQUAKE
+	db 1, 3, FIRE_BLAST
+	db 2, 2, SUBMISSION
+	db 2, 3, TAKE_DOWN
+	db 3, 1, SPLASH
+	db 3, 2, DIG
+	db 4, 1, TAKE_DOWN
+	db 4, 2, BLIZZARD
+	db 5, 1, PAY_DAY
 	db 0
 	
 	db KOICHI, 7		; Koichi 6 badges
-	db 1, 3, ROCK_SLIDE
+	db 1, 2, FIRE_BLAST
 	db 1, 4, EARTHQUAKE
-	db 2, 1, LOW_KICK
-	db 2, 2, LEER
-	db 2, 3, DIG
-	db 3, 2, MIMIC
-	db 3, 4, MEGA_KICK
-	db 5, 1, ROLLING_KICK
-	db 5, 2, DIG
+	db 2, 2, SUBMISSION
+	db 2, 3, TAKE_DOWN
+	db 3, 1, SPLASH
+	db 3, 2, DIG
+	db 4, 1, TAKE_DOWN
+	db 4, 2, BLIZZARD
+	db 5, 1, PAY_DAY
 	db 0
 	
 	db KOICHI, 8		; Koichi 7 badges
@@ -601,79 +690,113 @@ SpecialTrainerMoves:
 	db 0
 	
 	db RIVAL2, 11		; Silph Co. Rival w/Totartle
-	db 1, 3, FLY
-	db 1, 4, MIMIC
-	db 3, 1, DIG
-	db 4, 2, BARRAGE
-	db 4, 4, CONFUSION
-	db 5, 2, THUNDER_WAVE
-	db 6, 2, MEGA_DRAIN
+	db 1, 1, MIMIC
+	db 2, 1, PSYCHIC_M
+	db 2, 2, RECOVER
+	db 2, 3, ICE_BEAM
+	db 2, 4, NASTY_PLOT
+	db 3, 2, TAKE_DOWN
+	db 3, 3, DIG
+	db 3, 4, BODY_SLAM
+	db 4, 1, FLAME_CHARGE
+	db 4, 2, CHARGE_BEAM
+	db 5, 1, PSYCHIC_M
+	db 5, 3, MEGA_DRAIN
+	db 6, 2, SPIKE_CANNON
 	db 6, 3, SURF
 	db 0
 
 	db RIVAL2, 12		; Silph Co. Rival w/Venusaur
-	db 1, 3, FLY
-	db 1, 4, MIMIC
-	db 3, 1, SURF
-	db 4, 1, DIG
-	db 5, 2, THUNDER_WAVE
-	db 6, 3, LEECH_SEED
+	db 1, 1, MIMIC
+	db 2, 1, PSYCHIC_M
+	db 2, 2, RECOVER
+	db 2, 3, ICE_BEAM
+	db 2, 4, NASTY_PLOT
+	db 3, 1, FLAMETHROWER
+	db 4, 1, FLAME_CHARGE
+	db 4, 2, CHARGE_BEAM
+	db 5, 2, TAKE_DOWN
+	db 5, 3, DIG
+	db 5, 4, BODY_SLAM
+	db 6, 1, SLUDGE
 	db 0
 
 	db RIVAL2, 13		; Silph Co. Rival w/Charizard
-	db 1, 3, FLY
-	db 1, 4, MIMIC
-	db 3, 2, BARRAGE
-	db 3, 4, CONFUSION
-	db 4, 1, SURF
-	db 5, 2, THUNDER_WAVE
-	db 6, 3, SEISMIC_TOSS
-	db 6, 4, FLY
+	db 1, 1, MIMIC
+	db 2, 1, PSYCHIC_M
+	db 2, 2, RECOVER
+	db 2, 3, ICE_BEAM
+	db 2, 4, NASTY_PLOT
+	db 3, 1, PSYCHIC_M
+	db 3, 3, MEGA_DRAIN
+	db 4, 1, FLAME_CHARGE
+	db 4, 2, CHARGE_BEAM
+	db 5, 1, FLAMETHROWER
+	db 6, 1, EARTHQUAKE
+	db 6, 2, WHIRLWIND
 	db 0
 	
 	db RIVAL2, 14		; Silph Co. Rival w/Umbreon
-	db 1, 3, DIG
-	db 1, 4, SWORDS_DANCE
-	db 2, 2, BARRAGE
-	db 2, 4, CONFUSION
-	db 3, 2, SWIFT
-	db 4, 1, CONFUSE_RAY
-	db 4, 4, FLAMETHROWER
-	db 5, 2, THUNDER_WAVE
-	db 6, 2, BODY_SLAM
+	db 1, 4, THUNDERBOLT
+	db 2, 1, SUBMISSION
+	db 2, 2, TAKE_DOWN
+	db 2, 4, EARTHQUAKE
+	db 3, 1, PSYCHIC_M
+	db 3, 3, MEGA_DRAIN
+	db 4, 1, FLAME_CHARGE
+	db 4, 2, CHARGE_BEAM
+	db 5, 1, SUBMISSION
+	db 5, 2, EARTHQUAKE
+	db 5, 3, TAKE_DOWN
+	db 6, 1, SUBSTITUTE
+	db 6, 2, DOUBLE_TEAM
+	db 6, 4, TOXIC
 	db 0
 
 	db RIVAL2, 15		; Silph Co. Rival w/Raichu
-	db 1, 3, DIG
-	db 1, 4, SWORDS_DANCE
-	db 2, 2, BARRAGE
-	db 2, 4, CONFUSION
-	db 3, 1, CONFUSE_RAY
-	db 3, 4, FLAMETHROWER
-	db 5, 2, THUNDER_WAVE
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 4, DOUBLE_TEAM
+	db 1, 4, THUNDERBOLT
+	db 2, 1, SUBMISSION
+	db 2, 2, HORN_DRILL
+	db 2, 4, EARTHQUAKE
+	db 3, 1, PSYCHIC_M
+	db 3, 3, MEGA_DRAIN
+	db 4, 1, FLAME_CHARGE
+	db 4, 2, CHARGE_BEAM
+	db 5, 1, SUBMISSION
+	db 5, 2, EARTHQUAKE
+	db 5, 3, TAKE_DOWN
+	db 6, 1, PETAL_DANCE
+	db 6, 3, SURF
 	db 0
 	
 	db JESSIE_JAMES, 4	; Silph Co. J&J
-	db 1, 2, SAND_ATTACK
-	db 3, 4, WRAP
-	db 5, 3, ACID
-	db 5, 4, STUN_SPORE
-	db 6, 1, SURF
+	db 1, 2, SURF
+	db 1, 4, BLIZZARD
+	db 2, 1, TAKE_DOWN
+	db 2, 4, DIG
+	db 3, 1, EARTHQUAKE
+	db 3, 3, MEGA_DRAIN
+	db 3, 4, SLUDGE
+	db 4, 1, DREAM_EATER
+	db 4, 3, FLAME_CHARGE
+	db 5, 2, EXPLOSION
+	db 5, 3, FIRE_BLAST
+	db 6, 2, LEECH_LIFE
 	db 0
 	
 	db GIOVANNI, 2	; Silph Co. Giovanni
-	db 1, 2, DOUBLE_EDGE
-	db 1, 3, POISON_STING
-	db 2, 3, MEGA_PUNCH
-	db 3, 1, SUBSTITUTE
-	db 3, 2, SEISMIC_TOSS
-	db 4, 1, DOUBLE_KICK
-	db 5, 1, DOUBLE_KICK
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BUBBLEBEAM
+	db 1, 3, SPORE
+	db 1, 4, MEGA_DRAIN
+	db 2, 2, TAKE_DOWN
+	db 2, 3, THUNDERBOLT
+	db 3, 3, EARTHQUAKE
+	db 3, 4, HORN_DRILL
+	db 4, 1, TAKE_DOWN
+	db 4, 2, MEGA_DRAIN
+	db 4, 3, SLEEP_POWDER
+	db 5, 2, THUNDERBOLT
+	db 5, 4, BUBBLEBEAM
+	db 6, 1, MEGA_PUNCH
 	db 0
 	
 	db SABRINA, 2		; Sabrina 1 badge
@@ -714,25 +837,26 @@ SpecialTrainerMoves:
 	db 0
 	
 	db SABRINA, 6		; Sabrina 5 badges
-	db 1, 1, QUICK_ATTACK
-	db 1, 4, SAND_ATTACK
-	db 2, 2, PSYWAVE
-	db 2, 4, SUBSTITUTE
-	db 3, 3, PSYCHIC_M
-	db 3, 4, SURF
-	db 4, 1, HYPNOSIS
-	db 4, 3, REFLECT
+	db 1, 1, HYPNOSIS
+	db 1, 4, DAZZLE_GLEAM
+	db 2, 1, BITE
+	db 2, 3, HYPNOSIS
+	db 3, 1, PSYCHIC_M
+	db 4, 1, ICE_PUNCH
+	db 5, 1, FLAMETHROWER
+	db 5, 2, PSYCHIC_M
 	db 0
 	
 	db SABRINA, 7		; Sabrina 6 badges
-	db 1, 3, SAND_ATTACK
-	db 1, 4, QUICK_ATTACK
-	db 2, 2, PSYWAVE
-	db 2, 4, SUBSTITUTE
+	db 1, 3, HYPNOSIS
+	db 1, 4, DAZZLE_GLEAM
+	db 2, 2, BITE
 	db 3, 2, PSYCHIC_M
-	db 3, 3, SURF
-	db 4, 2, HYPNOSIS
-	db 4, 4, REFLECT
+	db 4, 1, ICE_PUNCH
+	db 4, 4, CHARGE_BEAM
+	db 5, 1, PSYCHIC_M
+	db 5, 2, ICE_BEAM
+	db 5, 3, FLAMETHROWER
 	db 0
 	
 	db BLAINE, 3		; Blaine 2 badges
@@ -769,394 +893,334 @@ SpecialTrainerMoves:
 	db 0
 	
 	db BLAINE, 6		; Blaine 5 badges
-	db 1, 2, STOMP
-	db 2, 1, FLAMETHROWER
-	db 2, 2, DOUBLE_TEAM
-	db 2, 4, CONFUSE_RAY
-	db 3, 1, FIRE_BLAST
-	db 3, 2, SAND_ATTACK
-	db 4, 1, FIRE_BLAST
-	db 4, 2, DIG
-	db 4, 3, AGILITY
-	db 5, 1, FIRE_BLAST
-	db 5, 2, SMOG
+	db 1, 3, TAKE_DOWN
+	db 2, 1, FLAME_CHARGE
+	db 3, 2, FIRE_BLAST
+	db 3, 3, DIG
+	db 3, 4, FLAME_CHARGE
+	db 4, 2, EGG_BOMB
+	db 5, 2, FLAME_CHARGE
+	db 5, 3, RAZOR_WIND
+	db 5, 4, WHIRLWIND
 	db 0
 	
 	db BLAINE, 7		; Blaine 6 badges
-	db 1, 1, FIRE_SPIN
-	db 1, 2, STOMP
-	db 2, 1, FLAMETHROWER
-	db 2, 2, FIRE_SPIN
-	db 2, 4, CONFUSE_RAY
-	db 3, 4, FIRE_BLAST
-	db 4, 1, FIRE_BLAST
-	db 4, 2, DIG
-	db 4, 3, AGILITY
-	db 5, 1, FIRE_BLAST
-	db 5, 2, SMOG
+	db 1, 2, TAKE_DOWN
+	db 1, 4, FIRE_SPIN
+	db 2, 2, FLAME_CHARGE
+	db 3, 1, FIRE_BLAST
+	db 3, 2, DIG
+	db 3, 3, FLAME_CHARGE
+	db 3, 4, TAKE_DOWN
+	db 4, 1, EGG_BOMB
+	db 5, 1, FIRE_SPIN
+	db 5, 2, FLAME_CHARGE
+	db 5, 3, RAZOR_WIND
+	db 5, 4, WHIRLWIND
 	db 0
 
 	db LEADER_GIOVANNI, 1
-	db 1, 1, BUBBLEBEAM
-	db 1, 2, EARTHQUAKE
-	db 2, 1, FISSURE
-	db 2, 2, EARTHQUAKE
+	db 1, 1, SUBSTITUTE
+	db 1, 2, MEGA_DRAIN
+	db 2, 1, DOUBLE_TEAM
 	db 3, 1, FIRE_BLAST
-	db 3, 2, ICE_BEAM
-	db 3, 3, SKULL_BASH
-	db 3, 4, BONEMERANG
-	db 4, 1, ROCK_SLIDE
-	db 4, 2, BODY_SLAM
-	db 4, 3, DOUBLE_KICK
-	db 5, 1, THUNDERBOLT
-	db 5, 2, THRASH
-	db 5, 3, DOUBLE_KICK
-	db 6, 1, FISSURE
-	db 6, 3, STOMP
-	db 6, 4, EARTHQUAKE
+	db 3, 2, BLIZZARD
+	db 3, 3, FURY_ATTACK
+	db 4, 1, AMNESIA
+	db 4, 2, FLAMETHROWER
+	db 4, 3, THUNDERBOLT
+	db 5, 2, SUBMISSION
+	db 6, 1, DOUBLE_TEAM
+	db 6, 2, TAKE_DOWN
 	db 0
 	
 	db RIVAL2, 16		; Route 22 Rival w/Totartle
-	db 1, 2, SAND_ATTACK
-	db 1, 3, FLY
-	db 1, 4, DOUBLE_EDGE
-	db 2, 2, STRENGTH
-	db 3, 1, FIRE_BLAST
+	db 1, 1, DOUBLE_EDGE
+	db 1, 2, WHIRLWIND
+	db 2, 1, PSYCHIC_M
+	db 2, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 2, 4, NASTY_PLOT
+	db 3, 1, FLAME_CHARGE
 	db 3, 2, DIG
-	db 4, 1, PSYCHIC_M
-	db 4, 2, SLEEP_POWDER
-	db 4, 4, SOLARBEAM
-	db 5, 1, THUNDER_WAVE
-	db 6, 1, BODY_SLAM
-	db 6, 2, MEGA_DRAIN
-	db 6, 3, SURF
-	db 6, 4, ICE_BEAM
+	db 3, 3, TAKE_DOWN
+	db 4, 1, SURF
+	db 5, 1, DREAM_EATER
+	db 6, 2, SPLASH
+	db 6, 3, MEGA_DRAIN
 	db 0
 
 	db RIVAL2, 17		; Route 22 Rival w/Venusaur
-	db 1, 2, SAND_ATTACK
-	db 1, 3, FLY
-	db 1, 4, DOUBLE_EDGE
-	db 2, 2, STRENGTH
-	db 3, 3, SURF
-	db 4, 1, FIRE_BLAST
-	db 4, 2, DIG
-	db 4, 3, AGILITY
-	db 4, 4, DOUBLE_EDGE
-	db 5, 1, THUNDER_WAVE
-	db 6, 3, LEECH_SEED
+	db 1, 1, DOUBLE_EDGE
+	db 1, 2, WHIRLWIND
+	db 2, 1, PSYCHIC_M
+	db 2, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 2, 4, NASTY_PLOT
+	db 3, 1, FLAMETHROWER
+	db 3, 4, BLIZZARD
+	db 4, 1, SURF
+	db 5, 1, FLAME_CHARGE
+	db 5, 2, DIG
+	db 5, 3, TAKE_DOWN
+	db 6, 1, MEGA_DRAIN
+	db 6, 3, BODY_SLAM
+	db 6, 4, SLEEP_POWDER
 	db 0
 
 	db RIVAL2, 18		; Route 22 Rival w/Charizard
-	db 1, 2, SAND_ATTACK
-	db 1, 3, FLY
-	db 1, 4, DOUBLE_EDGE
-	db 2, 2, STRENGTH
-	db 3, 2, HYPNOSIS
-	db 3, 3, PSYCHIC_M
-	db 4, 2, ICE_BEAM
-	db 4, 3, SURF
-	db 5, 1, THUNDER_WAVE
-	db 6, 1, FLY
-	db 6, 3, FIRE_SPIN
+	db 1, 1, DOUBLE_EDGE
+	db 1, 2, WHIRLWIND
+	db 2, 1, PSYCHIC_M
+	db 2, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 2, 4, NASTY_PLOT
+	db 3, 1, DREAM_EATER
+	db 4, 1, SURF
+	db 5, 1, FLAMETHROWER
+	db 5, 4, BLIZZARD
+	db 6, 1, MEGA_PUNCH
+	db 6, 2, EARTHQUAKE
+	db 6, 3, WHIRLWIND
 	db 0
 	
 	db RIVAL2, 19		; Route 22 Rival w/Umbreon
-	db 1, 1, SAND_ATTACK
-	db 1, 2, SLASH
-	db 1, 4, SWORDS_DANCE
-	db 2, 2, HYPNOSIS
-	db 2, 3, PSYCHIC_M
-	db 3, 1, THUNDERBOLT
-	db 3, 4, DOUBLE_TEAM
-	db 4, 1, CONFUSE_RAY
-	db 4, 2, REFLECT
-	db 4, 4, FIRE_BLAST
-	db 5, 1, THUNDER_WAVE
-	db 6, 1, BODY_SLAM
-	db 6, 3, QUICK_ATTACK
+	db 1, 2, THUNDER_WAVE
+	db 1, 3, ICE_BEAM
+	db 1, 4, PSYCHIC_M
+	db 2, 2, SUBMISSION
+	db 3, 1, DREAM_EATER
+	db 4, 1, SURF
+	db 5, 2, EARTHQUAKE
+	db 5, 3, TAKE_DOWN
+	db 6, 1, SUBSTITUTE
+	db 6, 2, DOUBLE_TEAM
 	db 0
 
 	db RIVAL2, 20		; Route 22 Rival w/Gorochu
-	db 1, 1, SAND_ATTACK
-	db 1, 2, SLASH
-	db 1, 4, SWORDS_DANCE
-	db 2, 2, HYPNOSIS
-	db 2, 3, PSYCHIC_M
-	db 3, 1, CONFUSE_RAY
-	db 3, 2, REFLECT
-	db 3, 4, FIRE_BLAST
-	db 4, 1, SELFDESTRUCT
-	db 4, 4, ICE_BEAM
-	db 5, 1, THUNDER_WAVE
+	db 1, 2, THUNDER_WAVE
+	db 1, 3, ICE_BEAM
+	db 1, 4, PSYCHIC_M
+	db 2, 2, SUBMISSION
+	db 3, 1, DREAM_EATER
+	db 4, 1, SURF
+	db 5, 1, SUBMISSION
+	db 5, 2, EARTHQUAKE
+	db 5, 3, HORN_DRILL
 	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 4, SURF
+	db 6, 2, SURF
+	db 6, 3, PETAL_DANCE
+	db 6, 4, HORN_DRILL
 	db 0
 
 	db LORELEI, 1
-	db 1, 1, SURF 
-	db 1, 3, HORN_DRILL
-	db 2, 1, EXPLOSION 
-	db 2, 3, ICE_BEAM
-	db 3, 1, BLIZZARD
-	db 3, 2, PSYCHIC_M
-	db 3, 3, BODY_SLAM
-	db 3, 4, MIST
-	db 4, 1, LOVELY_KISS 
-	db 4, 3, PSYCHIC_M
-	db 4, 4, COUNTER 
-	db 5, 1, BODY_SLAM
+	db 1, 1, HYPNOSIS
+	db 1, 3, FEINT_ATTACK
+	db 2, 1, BARRAGE
+	db 2, 3, EXPLOSION
+	db 3, 3, PSYCHIC_M
+	db 4, 1, HORN_DRILL
+	db 4, 2, THUNDERBOLT
+	db 5, 1, GROWTH
 	db 5, 2, REST
-	db 6, 1, HYPER_BEAM
-	db 6, 2, THUNDERBOLT
-	db 6, 3, BLIZZARD
+	db 5, 3, WATERFALL
+	db 6, 1, BUBBLEBEAM
+	db 6, 2, WHIRLWIND
 	db 0
 
 	db BRUNO, 1
-	db 1, 3, MEDITATE
-	db 2, 1, EARTHQUAKE
-	db 2, 3, ROCK_SLIDE
-	db 2, 4, EXPLOSION
-	db 3, 1, THUNDERBOLT
-	db 4, 1, SUBMISSION
-	db 5, 1, BODY_SLAM
-	db 5, 2, MEDITATE
-	db 6, 1, BODY_SLAM
-	db 6, 2, EARTHQUAKE
-	db 6, 3, ROCK_SLIDE
+	db 1, 3, MEGA_PUNCH
+	db 2, 1, EXPLOSION
+	db 3, 1, SPLASH
+	db 3, 2, DIG
+	db 4, 1, SWORDS_DANCE
+	db 4, 2, TAKE_DOWN
+	db 5, 1, TAKE_DOWN
+	db 5, 4, EARTHQUAKE
+	db 6, 1, SUBSTITUTE
+	db 6, 2, TAKE_DOWN
 	db 0
 
 	db AGATHA, 1
-	db 1, 1, MEGA_PUNCH
-	db 1, 2, ROCK_SLIDE
-	db 2, 1, MEGA_DRAIN
-	db 2, 3, CONFUSE_RAY
-	db 2, 4, FLY
-	db 3, 1, THUNDERBOLT
-	db 3, 2, EXPLOSION
-	db 4, 3, WRAP
-	db 4, 4, EARTHQUAKE
-	db 5, 1, REST
-	db 5, 3, TOXIC
-	db 6, 1, THUNDERBOLT
-	db 6, 2, MEGA_DRAIN
-	db 6, 4, PSYCHIC_M
+	db 1, 3, BLIZZARD
+	db 2, 1, LEECH_LIFE
+	db 3, 3, MEGA_DRAIN
+	db 4, 4, WHIRLWIND
+	db 5, 1, DIG
+	db 6, 1, FLAME_CHARGE
+	db 6, 4, WHIRLWIND
 	db 0
 
 	db LANCE, 1
-	db 1, 2, THUNDERBOLT
-	db 1, 4, ROCK_SLIDE
-	db 2, 1, BLIZZARD
-	db 2, 2, THUNDERBOLT 
-	db 3, 1, ICE_BEAM
-	db 3, 2, HYPER_BEAM
-	db 4, 1, SLASH
-	db 4, 2, SURF
-	db 4, 4, BODY_SLAM
-	db 5, 1, ROCK_THROW
-	db 5, 2, SKY_ATTACK
-	db 5, 3, DOUBLE_EDGE
-	db 5, 4, FIRE_BLAST
-	db 6, 2, BLIZZARD
+	db 1, 2, BLIZZARD
+	db 2, 2, FIRE_BLAST
+	db 3, 1, SURF
+	db 3, 4, THUNDER
+	db 4, 1, THUNDERBOLT
+	db 5, 1, BULLET_PUNCH
+	db 5, 4, EARTHQUAKE
+	db 6, 1, WHIRLWIND
 	db 6, 3, FIRE_BLAST
 	db 0
 
 	db RIVAL3, 1		; Champion Rival w/Totartle
-	db 1, 1, FLY
-	db 1, 2, SKY_ATTACK
-	db 1, 3, DOUBLE_EDGE
-	db 2, 1, THUNDER_WAVE
-	db 3, 2, BODY_SLAM
-	db 4, 1, FIRE_BLAST
-	db 4, 2, DIG
-	db 4, 3, AGILITY
-	db 4, 4, DOUBLE_EDGE
-	db 5, 1, PSYCHIC_M
-	db 5, 2, SLEEP_POWDER
-	db 5, 4, SOLARBEAM
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, PETAL_DANCE
+	db 1, 1, DOUBLE_EDGE
+	db 1, 2, WHIRLWIND
+	db 2, 1, PSYCHIC_M
+	db 2, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 3, 1, FLAME_CHARGE
+	db 3, 2, DIG
+	db 3, 3, TAKE_DOWN
+	db 4, 2, BLIZZARD
+	db 4, 3, FIRE_BLAST
+	db 4, 4, AMNESIA
+	db 5, 1, DREAM_EATER
+	db 6, 2, SPLASH
+	db 6, 3, MEGA_DRAIN
 	db 0
 
 	db RIVAL3, 2		; Champion Rival w/Venusaur
-	db 1, 1, FLY
-	db 1, 2, SKY_ATTACK
-	db 1, 3, DOUBLE_EDGE
-	db 2, 1, THUNDER_WAVE
-	db 3, 2, BODY_SLAM
-	db 4, 1, BLIZZARD
-	db 4, 2, THUNDERBOLT
-	db 5, 1, FIRE_BLAST
+	db 1, 1, DOUBLE_EDGE
+	db 1, 2, WHIRLWIND
+	db 2, 1, PSYCHIC_M
+	db 2, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 3, 1, FLAMETHROWER
+	db 3, 4, BLIZZARD
+	db 4, 2, BLIZZARD
+	db 4, 3, FIRE_BLAST
+	db 4, 4, AMNESIA
+	db 5, 1, FLAME_CHARGE
 	db 5, 2, DIG
-	db 5, 3, AGILITY
-	db 5, 4, DOUBLE_EDGE
-	db 6, 1, SOLARBEAM
+	db 5, 3, TAKE_DOWN
+	db 6, 1, MEGA_DRAIN
 	db 6, 3, BODY_SLAM
 	db 6, 4, SLEEP_POWDER
 	db 0
 
 	db RIVAL3, 3		; Champion Rival w/Charizard
-	db 1, 1, FLY
-	db 1, 2, SKY_ATTACK
-	db 1, 3, DOUBLE_EDGE
-	db 2, 1, THUNDER_WAVE
-	db 3, 2, BODY_SLAM
-	db 4, 1, PSYCHIC_M
-	db 4, 2, SLEEP_POWDER
-	db 4, 4, SOLARBEAM
-	db 5, 1, BLIZZARD
-	db 5, 2, THUNDERBOLT
-	db 6, 1, FLY
-	db 6, 3, FIRE_BLAST
-	db 6, 4, EARTHQUAKE
+	db 1, 1, DOUBLE_EDGE
+	db 1, 2, WHIRLWIND
+	db 2, 1, PSYCHIC_M
+	db 2, 2, THUNDERBOLT
+	db 2, 3, ICE_BEAM
+	db 3, 1, DREAM_EATER
+	db 4, 2, BLIZZARD
+	db 4, 3, FIRE_BLAST
+	db 4, 4, AMNESIA
+	db 5, 1, FLAMETHROWER
+	db 5, 4, BLIZZARD
+	db 6, 1, MEGA_PUNCH
+	db 6, 2, EARTHQUAKE
+	db 6, 3, WHIRLWIND
 	db 0
 	
 	db RIVAL3, 4		; Champion Rival w/Umbreon
-	db 1, 1, SAND_ATTACK
-	db 1, 2, SLASH
-	db 1, 4, SWORDS_DANCE
-	db 2, 1, THUNDER_WAVE
-	db 3, 1, PSYCHIC_M
-	db 3, 2, SLEEP_POWDER
-	db 3, 4, SOLARBEAM
-	db 4, 1, THUNDER_WAVE
-	db 4, 3, THUNDERBOLT
-	db 5, 1, CONFUSE_RAY
-	db 5, 2, REFLECT
-	db 5, 4, FIRE_BLAST
-	db 6, 1, BODY_SLAM
-	db 6, 3, QUICK_ATTACK
+	db 1, 2, THUNDER_WAVE
+	db 1, 3, ICE_BEAM
+	db 1, 4, PSYCHIC_M
+	db 2, 2, SUBMISSION
+	db 3, 1, DREAM_EATER
+	db 4, 2, BLIZZARD
+	db 4, 3, FIRE_BLAST
+	db 4, 4, AMNESIA
+	db 5, 2, EARTHQUAKE
+	db 5, 3, TAKE_DOWN
+	db 6, 1, SUBSTITUTE
+	db 6, 2, DOUBLE_TEAM
 	db 0
 
 	db RIVAL3, 5		; Champion Rival w/Gorochu
-	db 1, 1, SAND_ATTACK
-	db 1, 2, SLASH
-	db 1, 4, SWORDS_DANCE
-	db 2, 1, THUNDER_WAVE
-	db 3, 1, PSYCHIC_M
-	db 3, 2, SLEEP_POWDER
-	db 3, 4, SOLARBEAM
-	db 4, 1, CONFUSE_RAY
-	db 4, 2, REFLECT
-	db 4, 4, FIRE_BLAST
-	db 5, 1, EXPLOSION
-	db 5, 3, SURF
-	db 5, 4, BLIZZARD
+	db 1, 2, THUNDER_WAVE
+	db 1, 3, ICE_BEAM
+	db 1, 4, PSYCHIC_M
+	db 2, 2, SUBMISSION
+	db 3, 1, DREAM_EATER
+	db 4, 2, BLIZZARD
+	db 4, 3, FIRE_BLAST
+	db 4, 4, AMNESIA
+	db 5, 1, SUBMISSION
+	db 5, 2, EARTHQUAKE
+	db 5, 3, HORN_DRILL
 	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 3, THUNDER_WAVE
-	db 6, 4, SURF
+	db 6, 2, SURF
+	db 6, 3, PETAL_DANCE
+	db 6, 4, HORN_DRILL
 	db 0
 	
 	db PROF_OAK, 1	; Totartle Team
 	db 1, 1, HYPER_BEAM
 	db 1, 3, EARTHQUAKE
-	db 1, 4, BLIZZARD
 	db 2, 1, BLIZZARD
-	db 2, 2, THUNDERBOLT
-	db 3, 1, FIRE_BLAST
+	db 2, 4, THUNDER
 	db 3, 2, DIG
-	db 3, 3, AGILITY
-	db 3, 4, BODY_SLAM
+	db 3, 3, SUBSTITUTE
+	db 3, 4, FIRE_BLAST
 	db 4, 1, PSYCHIC_M
-	db 4, 2, SLEEP_POWDER
-	db 4, 3, EXPLOSION
-	db 4, 4, MEGA_DRAIN
+	db 4, 2, EXPLOSION
 	db 5, 1, BLIZZARD
-	db 5, 3, THUNDERBOLT
-	db 5, 4, THRASH
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, SOLARBEAM
+	db 6, 2, LEECH_SEED
 	db 0
 	
 	db PROF_OAK, 2	; Venusaur Team
 	db 1, 1, HYPER_BEAM
 	db 1, 3, EARTHQUAKE
-	db 1, 4, BLIZZARD
 	db 2, 1, PSYCHIC_M
-	db 2, 2, SLEEP_POWDER
-	db 2, 3, EXPLOSION
-	db 2, 4, MEGA_DRAIN
+	db 2, 2, EXPLOSION
 	db 3, 1, BLIZZARD
-	db 3, 2, THUNDERBOLT
-	db 4, 1, FIRE_BLAST
+	db 3, 4, THUNDER
 	db 4, 2, DIG
-	db 4, 3, AGILITY
-	db 4, 4, BODY_SLAM
+	db 4, 3, SUBSTITUTE
+	db 4, 4, FIRE_BLAST
 	db 5, 1, BLIZZARD
-	db 5, 3, THUNDERBOLT
-	db 5, 4, THRASH
 	db 6, 1, SWORDS_DANCE
-	db 6, 2, RAZOR_LEAF
-	db 6, 3, HYPER_BEAM
+	db 6, 3, MEGA_DRAIN
 	db 6, 4, SLEEP_POWDER
 	db 0
 	
 	db PROF_OAK, 3	; Charizard Team
 	db 1, 1, HYPER_BEAM
 	db 1, 3, EARTHQUAKE
-	db 1, 4, BLIZZARD
-	db 2, 1, FIRE_BLAST
 	db 2, 2, DIG
-	db 2, 3, AGILITY
-	db 2, 4, BODY_SLAM
+	db 2, 3, SUBSTITUTE
+	db 2, 4, FIRE_BLAST
 	db 3, 1, PSYCHIC_M
-	db 3, 2, SLEEP_POWDER
-	db 3, 3, EXPLOSION
-	db 3, 4, MEGA_DRAIN
+	db 3, 2, EXPLOSION
 	db 4, 1, BLIZZARD
-	db 4, 2, THUNDERBOLT
+	db 4, 4, THUNDER
 	db 5, 1, BLIZZARD
-	db 5, 3, THUNDERBOLT
-	db 5, 4, THRASH
-	db 6, 1, SWORDS_DANCE
-	db 6, 3, FIRE_BLAST
-	db 6, 4, EARTHQUAKE
+	db 6, 1, MEGA_PUNCH
+	db 6, 2, EARTHQUAKE
+	db 6, 3, WHIRLWIND
 	db 0
 	
 	db PROF_OAK, 4	; Pika/Vee Team 1
 	db 1, 1, HYPER_BEAM
 	db 1, 3, EARTHQUAKE
-	db 1, 4, BLIZZARD
-	db 2, 1, THUNDER_WAVE
-	db 2, 3, THUNDERBOLT
+	db 2, 1, TAKE_DOWN
 	db 3, 1, BLIZZARD
-	db 3, 3, THUNDERBOLT
-	db 3, 4, THRASH
 	db 4, 1, SWORDS_DANCE
-	db 4, 2, RAZOR_LEAF
-	db 4, 3, HYPER_BEAM
+	db 4, 3, MEGA_DRAIN
 	db 4, 4, SLEEP_POWDER
-	db 5, 1, SWORDS_DANCE
-	db 5, 3, FIRE_BLAST
-	db 5, 4, EARTHQUAKE
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, SOLARBEAM
+	db 5, 1, MEGA_PUNCH
+	db 5, 2, EARTHQUAKE
+	db 5, 3, WHIRLWIND
+	db 6, 2, LEECH_SEED
 	db 0
 	
 	db PROF_OAK, 5	; Pika/Vee Team 2
 	db 1, 1, HYPER_BEAM
 	db 1, 3, EARTHQUAKE
-	db 1, 4, BLIZZARD
-	db 2, 1, THUNDER_WAVE
-	db 2, 3, THUNDERBOLT
+	db 2, 1, TAKE_DOWN
 	db 3, 1, BLIZZARD
-	db 3, 3, THUNDERBOLT
-	db 3, 4, THRASH
 	db 4, 1, SWORDS_DANCE
-	db 4, 2, RAZOR_LEAF
-	db 4, 3, HYPER_BEAM
+	db 4, 3, MEGA_DRAIN
 	db 4, 4, SLEEP_POWDER
-	db 5, 1, SWORDS_DANCE
-	db 5, 3, FIRE_BLAST
-	db 5, 4, EARTHQUAKE
-	db 6, 1, BLIZZARD
-	db 6, 3, BODY_SLAM
-	db 6, 4, SOLARBEAM
+	db 5, 1, MEGA_PUNCH
+	db 5, 2, EARTHQUAKE
+	db 5, 3, WHIRLWIND
+	db 6, 2, LEECH_SEED
 	db 0
 
 	db COOLTRAINER_M, 11	; GAME FREAK Morimoto
@@ -1219,205 +1283,141 @@ SpecialTrainerMoves:
 	db 0
 	
 	db BROCK, 9		; Brock postgame
-	db 1, 3, EARTHQUAKE
-	db 1, 4, BODY_SLAM
-	db 2, 1, SURF
-	db 2, 2, SUBSTITUTE
-	db 2, 3, FIRE_BLAST
-	db 3, 3, FIRE_BLAST
-	db 3, 4, FIRE_SPIN
-	db 4, 1, BODY_SLAM
-	db 4, 2, REST
-	db 4, 3, SURF
-	db 4, 4, ICE_BEAM
-	db 5, 1, SURF
-	db 5, 2, SWORDS_DANCE
-	db 5, 3, HYPER_BEAM
-	db 5, 4, DIG
-	db 6, 1, ROCK_SLIDE
-	db 6, 3, BIND
-	db 6, 4, EARTHQUAKE
+	db 1, 2, WING_ATTACK
+	db 2, 1, MEGA_PUNCH
+	db 2, 2, EARTHQUAKE
+	db 3, 1, TAKE_DOWN
+	db 4, 1, TAKE_DOWN
+	db 4, 2, HORN_DRILL
+	db 4, 3, BLIZZARD
+	db 5, 4, EARTHQUAKE
+	db 6, 1, REST
 	db 0
 
 	db MISTY, 9		; Misty postgame
-	db 1, 1, REST
-	db 1, 2, ICE_BEAM
-	db 2, 1, AMNESIA
-	db 2, 2, GLARE
-	db 2, 3, PSYCHIC_M
+	db 1, 2, BLIZZARD
 	db 2, 4, SURF
-	db 3, 1, BODY_SLAM
+	db 3, 1, HORN_DRILL
 	db 3, 2, EARTHQUAKE
 	db 3, 3, SUBMISSION
-	db 4, 1, SURF
-	db 4, 2, GROWTH
-	db 4, 4, BLIZZARD
-	db 5, 1, COUNTER
-	db 5, 2, BLIZZARD
-	db 5, 3, MEGA_DRAIN
-	db 5, 4, SURF
-	db 6, 1, RECOVER
-	db 6, 2, SURF
-	db 6, 3, PSYCHIC_M
-	db 6, 4, THUNDERBOLT
+	db 4, 1, BLIZZARD
+	db 5, 2, LEECH_SEED
+	db 6, 3, THUNDERBOLT
+	db 6, 4, WATERFALL
 	db 0
 	
 	db LT_SURGE, 9	; Surge postgame
-	db 1, 1, THUNDER_WAVE
-	db 1, 2, EARTHQUAKE
-	db 1, 4, HYPER_BEAM
-	db 2, 1, THUNDER_WAVE
-	db 2, 3, THUNDERBOLT
+	db 1, 1, EARTHQUAKE
+	db 1, 3, TAKE_DOWN
+	db 2, 1, TAKE_DOWN
 	db 3, 3, EARTHQUAKE
-	db 3, 4, THUNDER_WAVE
-	db 4, 1, THUNDERBOLT
-	db 4, 2, ROLLING_KICK
+	db 3, 4, TAKE_DOWN
+	db 4, 1, PSYCHIC_M
+	db 4, 2, FLAMETHROWER
 	db 4, 3, ICE_PUNCH
-	db 4, 4, PSYCHIC_M
-	db 5, 3, THUNDERBOLT
-	db 5, 4, GROWTH
-	db 6, 1, THUNDERBOLT
-	db 6, 2, BODY_SLAM
-	db 6, 3, FLY
-	db 6, 4, SURF
+	db 5, 1, FIRE_BLAST
+	db 5, 3, BUBBLEBEAM
+	db 6, 1, SUBSTITUTE
+	db 6, 2, WHIRLWIND
 	db 0
 	
 	db ERIKA, 9		; Erika postgame
-	db 1, 1, REST
-	db 1, 2, RAZOR_LEAF
-	db 1, 3, ACID
+	db 1, 1, SUBSTITUTE
 	db 2, 1, SWORDS_DANCE
 	db 2, 2, EARTHQUAKE
 	db 2, 3, WRAP
-	db 3, 1, MEGA_DRAIN
-	db 3, 2, THUNDERBOLT
-	db 3, 3, THUNDER_WAVE
-	db 4, 1, HYPER_BEAM
-	db 4, 3, BODY_SLAM
-	db 4, 4, SWORDS_DANCE
-	db 5, 1, SOLARBEAM
-	db 5, 3, BODY_SLAM
-	db 5, 4, SLEEP_POWDER
-	db 6, 2, MEGA_DRAIN
-	db 6, 3, ROCK_SLIDE
+	db 3, 1, TAKE_DOWN
+	db 4, 3, DIG
+	db 4, 4, TOXIC
+	db 5, 1, DREAM_EATER
+	db 5, 3, MEGA_DRAIN
+	db 6, 3, FLASH
 	db 6, 4, AMNESIA
 	db 0
 	
 	db KOGA, 9		; Koga postgame
-	db 1, 2, MEGA_DRAIN
-	db 2, 1, RAZOR_LEAF
-	db 2, 2, ACID
-	db 2, 4, WRAP
-	db 3, 1, SURF
-	db 4, 1, THUNDERBOLT
-	db 4, 2, ICE_PUNCH
-	db 4, 3, SLUDGE
-	db 4, 4, EXPLOSION
+	db 1, 2, BLIZZARD
+	db 3, 1, FIRE_BLAST
+	db 4, 3, FIRE_BLAST
+	db 4, 4, MEGA_DRAIN
 	db 5, 1, THUNDERBOLT
-	db 5, 2, FIRE_BLAST
-	db 5, 3, SLUDGE
-	db 6, 1, MEGA_DRAIN
-	db 6, 3, CONFUSE_RAY
-	db 6, 4, FLY
+	db 5, 2, SLUDGE
+	db 6, 1, FLY
+	db 6, 2, DOUBLE_TEAM
+	db 6, 4, CONFUSE_RAY
 	db 0
 	
 	db SABRINA, 9	; Sabrina postgame
-	db 1, 1, LOVELY_KISS
-	db 1, 2, BODY_SLAM
-	db 1, 3, PSYCHIC_M
-	db 2, 1, EARTHQUAKE
-	db 2, 2, SURF
+	db 1, 1, BUBBLEBEAM
+	db 1, 2, PETAL_DANCE
+	db 2, 1, TOXIC
+	db 2, 2, MINIMIZE
+	db 2, 4, LOVELY_KISS
 	db 3, 1, HYPNOSIS
-	db 3, 3, DOUBLE_KICK
-	db 4, 1, THUNDERPUNCH
-	db 4, 2, ICE_PUNCH
-	db 4, 4, AMNESIA
-	db 5, 1, HYPER_BEAM
-	db 5, 2, REFLECT
-	db 5, 3, GROWTH
+	db 4, 3, LEECH_LIFE
+	db 5, 1, BLIZZARD
+	db 5, 2, FIRE_BLAST
 	db 6, 1, FIRE_PUNCH
-	db 6, 4, THUNDERPUNCH
 	db 0
 	
 	db BLAINE, 9	; Blaine postgame
-	db 1, 1, HYPNOSIS
-	db 1, 2, FIRE_SPIN
-	db 1, 3, DOUBLE_KICK
-	db 1, 4, FIRE_BLAST
-	db 2, 1, FIRE_BLAST
-	db 2, 2, DIG
-	db 2, 3, AGILITY
-	db 2, 4, BODY_SLAM
-	db 3, 1, BODY_SLAM
+	db 1, 3, EGG_BOMB
+	db 2, 1, DREAM_EATER
+	db 2, 2, FLASH
+	db 2, 3, MEGA_DRAIN
 	db 3, 2, EARTHQUAKE
 	db 3, 3, SUBMISSION
-	db 3, 4, FIRE_BLAST
-	db 4, 1, GROWTH
-	db 4, 2, HYPER_BEAM
-	db 4, 3, FIRE_BLAST
-	db 5, 1, FLY
-	db 5, 3, FIRE_BLAST
-	db 5, 4, EARTHQUAKE
-	db 6, 1, FIRE_BLAST
-	db 6, 2, THUNDERBOLT
-	db 6, 3, EARTHQUAKE
-	db 6, 4, CONFUSE_RAY
+	db 4, 1, FLAME_CHARGE
+	db 4, 2, DIG
+	db 4, 3, TAKE_DOWN
+	db 5, 3, EGG_BOMB
+	db 5, 4, PSYCHIC_M
+	db 6, 1, FIRE_SPIN
+	db 6, 2, DOUBLE_TEAM
+	db 6, 3, WHIRLWIND
 	db 0
 	
 	db CHIEF, 1
 	db 1, 1, THUNDERBOLT
-	db 1, 2, THUNDER_WAVE
-	db 1, 3, HEADBUTT
 	db 2, 1, BLIZZARD
 	db 2, 2, THUNDERBOLT
 	db 2, 3, SING
 	db 2, 4, SURF
-	db 3, 3, BULLET_PUNCH
-	db 4, 1, FIRE_PUNCH
-	db 4, 2, THUNDERBOLT
+	db 3, 2, BULLET_PUNCH
+	db 4, 3, THUNDERBOLT
 	db 5, 1, THUNDERBOLT
 	db 5, 2, ICE_BEAM
 	db 5, 3, RECOVER
 	db 6, 1, THUNDERBOLT
-	db 6, 2, THUNDER_WAVE
+	db 6, 2, TAKE_DOWN
 	db 6, 4, ICE_BEAM
 	db 0
 
 	db CHIEF, 2
 	db 1, 1, THUNDERBOLT
-	db 1, 2, THUNDER_WAVE
-	db 1, 3, HEADBUTT
 	db 2, 1, BLIZZARD
 	db 2, 2, THUNDERBOLT
 	db 2, 3, SING
 	db 2, 4, SURF
-	db 3, 3, BULLET_PUNCH
-	db 4, 1, FIRE_PUNCH
-	db 4, 2, THUNDERBOLT
+	db 3, 2, BULLET_PUNCH
+	db 4, 3, THUNDERBOLT
 	db 5, 1, THUNDERBOLT
 	db 5, 2, ICE_BEAM
 	db 5, 3, RECOVER
 	db 6, 1, THUNDERBOLT
-	db 6, 2, THUNDER_WAVE
+	db 6, 2, TAKE_DOWN
 	db 6, 4, ICE_BEAM
 	db 0
 	
 	db JESSIE_JAMES, 5	; J&J postgame
-	db 1, 1, BUBBLEBEAM
-	db 1, 2, THUNDERBOLT
-	db 1, 4, HYPNOSIS
-	db 2, 3, WRAP
-	db 2, 4, EARTHQUAKE
-	db 3, 1, WRAP
-	db 3, 2, BODY_SLAM
-	db 3, 3, EXPLOSION
-	db 3, 4, EARTHQUAKE
-	db 4, 1, SLUDGE
-	db 4, 2, THUNDERBOLT
-	db 4, 3, FIRE_BLAST
-	db 5, 3, BODY_SLAM
-	db 6, 1, FIRE_BLAST
-	db 6, 2, THUNDERBOLT
+	db 1, 2, DIG
+	db 2, 2, BLIZZARD
+	db 3, 2, ICE_PUNCH
+	db 4, 1, THUNDERBOLT
+	db 4, 2, SLUDGE
+	db 5, 1, LEECH_LIFE
+	db 5, 4, SLEEP_POWDER
+	db 6, 1, BLIZZARD
 	db 0
 	
 	db LORELEI, 2	; Lorelei rematch

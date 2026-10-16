@@ -8,7 +8,7 @@ CinnabarVolcano_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 14,  5, SPRITE_BIRD, STAY, UP, 1, MOLTRES, 50 | OW_POKEMON
+	object_event 14,  5, SPRITE_BIRD, STAY, UP, 1, MOLTRES, 60 | OW_POKEMON
 	object_event 13, 16, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 2 ; person
 	object_event 14, 15, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 3 ; person
 	object_event 14, 14, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 4 ; person

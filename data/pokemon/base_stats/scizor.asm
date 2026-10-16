@@ -1,6 +1,6 @@
 	db DEX_SCIZOR ; pokedex id
 
-	db  70, 130, 100,  65,  55
+	db  70, 130, 105,  70,  60
 	;   hp  atk  def  spd  spc
 
 	db BUG, STEEL ; type
@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT
 	; end

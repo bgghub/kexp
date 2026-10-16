@@ -1,15 +1,15 @@
 CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 60, GRAVELER
-	db 60, GOLBAT
-	db 61, ELECTRODE
-	db 61, DODRIO
-	db 61, VENOMOTH
-	db 60, GRAVELER
-	db 62, KADABRA
-	db 62, MAGNETON
-	db 60, DITTO
-	db 63, CLEFAIRY
+	db 98, RHYPERIOR
+	db 98, GOROCHU
+	db 98, ELECTRODE
+	db 98, GENGAR
+	db 98, VENOMOTH
+	db 98, GOLEM
+	db 98, ALAKAZAM
+	db 98, MAGNEZONE
+	db 98, DITTO
+	db 98, CLEFABLE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

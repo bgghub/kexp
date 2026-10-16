@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/blottle.pic", 0, 1 ; sprite dimensions
 	dw BlottlePicFront, BlottlePicBack
 
-	db CONSTRICT, SMOKESCREEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db CONSTRICT, BUBBLE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
+	tmhm TOXIC,        DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     RAGE,         MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   SURF,         \
 	     FLASH

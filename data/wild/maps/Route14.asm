@@ -1,15 +1,15 @@
 Route14WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 24, ODDISH
-	db 26, VENONAT
-	db 25, PIDGEOTTO
-	db 25, DITTO
-	db 22, ODDISH
-	db 28, BELLSPROUT
-	db 28, VENONAT
-	db 30, VENOMOTH
-	db 28, GAOTORA
-	db 30, GAOTORA
+	db 43, BEEDRILL
+	db 43, CARAPTHOR
+	db 43, PINSIR
+	db 43, DITTO
+	db 43, BUTTERFREE
+	db 43, BELLSPROUT
+	db 43, VENOMOTH
+	db 43, VENOMOTH
+	db 43, GAOTORA
+	db 43, GAOTORA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

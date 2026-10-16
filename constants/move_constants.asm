@@ -180,7 +180,7 @@
 	const FEINT_ATTACK ; ac
 	const IRON_HEAD    ; ad
 	const BRUTAL_SWING ; ae
-	const CHARM 	 ; af
+	const CHARM 	   ; af
 	const SWEET_KISS   ; b0
 	const BULLET_PUNCH ; b1
 	const MIRROR_SHOT  ; b2
@@ -191,8 +191,11 @@
 	const DISARMING_VOICE ; b7
 	const NASTY_PLOT   ; b8
 	const UPPERCUT	   ; b9
-	const POWDER_SNOW	; b10
-	const STRUGGLE     ; formerly a5, now c0
+	const POWDER_SNOW	; ba
+	const CHARGE_BEAM ; bb
+	const FLAME_CHARGE ; bc
+	const FALLING_DOWN ; bd
+	const STRUGGLE     ; be
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

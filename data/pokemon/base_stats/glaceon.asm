@@ -10,12 +10,12 @@
 	INCBIN "gfx/pokemon/front/glaceon.pic", 0, 1 ; sprite dimensions
 	dw GlaceonPicFront, GlaceonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, POWDER_SNOW ; level 1 learnset
+	db SPIKE_CANNON, SAND_ATTACK, QUICK_ATTACK, POWDER_SNOW ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  \
+	tmhm TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  ICE_BEAM,     \
+	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \   
 	     SUBSTITUTE
 	; end

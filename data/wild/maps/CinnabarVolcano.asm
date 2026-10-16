@@ -1,15 +1,15 @@
 CinnabarVolcanoWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 35, VULPIX
-	db 35, PONYTA
-	db 35, GROWLITHE
-	db 36, PONYTA
-	db 36, GROWLITHE
-	db 36, ONIX
-	db 37, ONIX
-	db 36, MAGMAR
-	db 38, MAGMAR
-	db 40, RHYDON
+	db 55, NINETALES
+	db 55, RAPIDASH
+	db 55, ARCANINE_H
+	db 55, HYPNO
+	db 55, ARCANINE_H
+	db 55, STEELIX
+	db 55, STEELIX
+	db 55, MAGMAR
+	db 55, MAGMAR
+	db 55, RHYDON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/melmetal.pic", 0, 1 ; sprite dimensions
 	dw MelmetalPicFront, MelmetalPicBack
 
-	db THUNDERSHOCK, HARDEN, TAIL_WHIP, HEADBUTT ; level 1 learnset
+	db THUNDERSHOCK, HARDEN, BULLET_PUNCH, HEADBUTT ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

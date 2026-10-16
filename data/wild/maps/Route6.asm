@@ -4,27 +4,27 @@
 ; Oh, and the water encounters are a mishmash of what's seen here over the franchise.
 Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 13, RATTATA
-	db 13, PIDGEY
-	db 15, PIDGEOTTO
-	db 15, MEOWTH
-	db 16, MEOWTH
-	db 15, GROWLITHE
-	db 16, GROWLITHE
-	db 16, JIGGLYPUFF
-	db 14, GROWLITHE
-	db 16, ABRA
+	db 22, RATICATE_A
+	db 22, KADABRA
+	db 22, PIDGEOTTO
+	db 22, MEOWTH
+	db 22, MEOWTH
+	db 22, GROWLITHE
+	db 22, GROWLITHE
+	db 22, JIGGLYPUFF
+	db 22, GROWLITHE
+	db 22, KADABRA
 	end_grass_wildmons
 
 	def_water_wildmons 10 ; encounter rate
-	db 12, PSYDUCK
-	db 12, SLOWPOKE
-	db 15, PSYDUCK
-	db 15, SLOWPOKE
-	db 15, GOLDEEN
-	db 15, WEIRDUCK
-	db 15, WEIRDUCK
-	db 16, SEAKING
-	db 15, GOLDUCK
-	db 20, GOLDUCK
+	db 22, PSYDUCK
+	db 22, SLOWPOKE
+	db 22, PSYDUCK
+	db 22, SLOWPOKE
+	db 22, GOLDEEN
+	db 22, POLIWHIRL
+	db 22, POLIWHIRL
+	db 22, SEAKING
+	db 22, GOLDUCK
+	db 22, GOLDUCK
 	end_water_wildmons

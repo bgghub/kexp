@@ -1,6 +1,6 @@
 	db DEX_HITMONTOP ; pokedex id
 
-	db  50,  95,  95,  70,  35
+	db  50,  95,  95,  70,  75
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/hitmontop.pic", 0, 1 ; sprite dimensions
 	dw HitmontopPicFront, HitmontopPicBack
 
-	db ROLLING_KICK, FOCUS_ENERGY, NO_MOVE, NO_MOVE ; level 1 learnset
+	db ROLLING_KICK, SPLASH, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,15 +1,15 @@
 MtMoonB1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db  8, BITTYBAT
-	db  9, BITTYBAT
-	db  7, GEODUDE
-	db  8, GEODUDE
-	db  9, SANDSHREW
-	db  9, PARAS
-	db 10, BITTYBAT
-	db  9, SANDSHREW
-	db  9, CLEFAIRY
-	db 10, SANDSHREW
+	db 16, BITTYBAT
+	db 16, VOLTORB
+	db 16, GEODUDE
+	db 16, GEODUDE
+	db 16, SANDSHREW
+	db 16, PARAS
+	db 16, BITTYBAT
+	db 16, SANDSHREW
+	db 16, CLEFAIRY
+	db 16, SANDSHREW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -1,6 +1,6 @@
 	db DEX_PERSIAN_A ; pokedex id
 
-	db  65,  60,  60, 115,  75
+	db  65,  60,  60, 115,  90
 	;   hp  atk  def  spd  spc
 
 	db DARK, DARK ; type
@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/persiana.pic", 0, 1 ; sprite dimensions
 	dw PersianAPicFront, PersianAPicBack
 
-	db SCRATCH, GROWL, BITE, SCREECH ; level 1 learnset
+	db SCRATCH, GROWL, BITE, PAY_DAY ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
+	tmhm TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    HYPER_BEAM,   PAY_DAY,      RAGE,         THUNDERBOLT,  \
 	     THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         SUBSTITUTE

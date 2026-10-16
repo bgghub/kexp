@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/articunog.pic", 0, 1 ; sprite dimensions
 	dw ArticunoGPicFront, ArticunoGPicBack
 
-	db GUST, CONFUSION, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WING_ATTACK, CONFUSION, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         PSYCHIC_M,    TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKY_ATTACK,   \
 	     REST,         PSYWAVE,      SUBSTITUTE,   FLY

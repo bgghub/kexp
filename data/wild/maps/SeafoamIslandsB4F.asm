@@ -1,26 +1,26 @@
 SeafoamIslandsB4FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 35, WEIRDUCK
-	db 35, SEEL
-	db 35, BLASTYKE
-	db 36, SEEL
-	db 36, DEWGONG
-	db 36, GOLDUCK
-	db 37, BLASTYKE
-	db 36, BUU
-	db 38, BUU
-	db 40, BLASTOISE
+	db 59, WEIRDUCK
+	db 59, SLOWKING_G
+	db 59, BLASTYKE
+	db 59, SLOWKING_G
+	db 59, DEWGONG
+	db 59, GOLDUCK
+	db 59, BLASTYKE
+	db 59, BUU
+	db 59, BUU
+	db 59, BLASTOISE
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
-	db 30, TENTACOOL
-	db 30, TENTACOOL
-	db 35, SHELLDER
-	db 35, STARYU
-	db 35, TENTACOOL
-	db 35, HORSEA
-	db 35, STARYU
-	db 35, HORSEA
-	db 35, SHARPOON
-	db 40, LAPRAS
+	db 59, TENTACOOL
+	db 59, TENTACOOL
+	db 59, SHELLDER
+	db 59, STARYU
+	db 59, TENTACOOL
+	db 59, HORSEA
+	db 59, STARYU
+	db 59, HORSEA
+	db 59, SHARPOON
+	db 59, LAPRAS
 	end_water_wildmons

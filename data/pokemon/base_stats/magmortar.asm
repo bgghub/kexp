@@ -1,6 +1,6 @@
 	db DEX_MAGMORTAR ; pokedex id
 
-	db  75,  95,  67,  83,  95
+	db  75,  95,  67,  83, 100
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         PSYWAVE,	   \      
+	     METRONOME,    EGG_BOMB,     FIRE_BLAST,   SKULL_BASH,   REST,         PSYWAVE,	   \      
 		 ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 

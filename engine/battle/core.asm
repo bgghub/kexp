@@ -574,8 +574,7 @@ HandlePoisonBurnLeechSeed_DecreaseOwnHP:
 	rr c
 	srl b
 	rr c
-	srl c
-	srl c         ; c = max HP/16 (assumption: HP < 1024)
+	srl c         ; c = max HP/8 (assumption: HP < 1024)
 	ld a, c
 	and a
 	jr nz, .nonZeroDamage
@@ -3353,7 +3352,11 @@ MirrorMoveCheck:
 	ld hl, ResidualEffects2
 	ld de, 1
 	call IsInArray
-	jp c, JumpMoveEffect ; done here after executing effects of ResidualEffects2
+	jr nc, .notResidual2Effect
+	ld a, [wPlayerMovePower]
+	and a ; check if zero base power
+	jp z, JumpMoveEffect
+.notResidual2Effect
 	ld a, [wMoveMissed]
 	and a
 	jr z, .moveDidNotMiss
@@ -5931,7 +5934,11 @@ EnemyCheckIfMirrorMoveEffect:
 	ld hl, ResidualEffects2
 	ld de, $1
 	call IsInArray
-	jp c, JumpMoveEffect
+	jr nc, .notResidual2EffectEnemy
+	ld a, [wEnemyMovePower]
+	and a ; Check if zero base power
+	jp z, JumpMoveEffect
+.notResidual2EffectEnemy
 	ld a, [wMoveMissed]
 	and a
 	jr z, .moveDidNotMiss

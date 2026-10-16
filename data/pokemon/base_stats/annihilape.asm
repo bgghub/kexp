@@ -1,6 +1,6 @@
 	db DEX_ANNIHILAPE ; pokedex id
 
-	db 110, 115,  80,  90,  50
+	db 110, 115,  80,  90,  70
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, GHOST ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/annihilape.pic", 0, 1 ; sprite dimensions
 	dw AnnihilapePicFront, AnnihilapePicBack
 
-	db SCRATCH, LEER, UPPERCUT, KARATE_CHOP ; level 1 learnset
+	db SCRATCH, LEER, UPPERCUT, LICK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

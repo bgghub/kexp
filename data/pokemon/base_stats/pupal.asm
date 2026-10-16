@@ -1,6 +1,6 @@
 	db DEX_PUPAL ; pokedex id
 
-	db  45,  20,  50,  40,  30
+	db  50,  20,  50,  40,  45
 	;   hp  atk  def  spd  spc
 
 	db BUG, BUG ; type

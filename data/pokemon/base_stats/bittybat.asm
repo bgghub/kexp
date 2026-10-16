@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/bittybat.pic", 0, 1 ; sprite dimensions
 	dw BittybatPicFront, BittybatPicBack
 
-	db LEECH_LIFE, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db ABSORB, TACKLE, GUST, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        DOUBLE_EDGE,  \
 	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     SWIFT,        REST,         SUBSTITUTE
 	; end

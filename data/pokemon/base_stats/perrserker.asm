@@ -1,6 +1,6 @@
 	db DEX_PERRSERKER ; pokedex id
 
-	db  60, 110, 100,  50,  60
+	db  60, 120, 100,  50,  70
 	;   hp  atk  def  spd  spc
 
 	db STEEL, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/perrserker.pic", 0, 1 ; sprite dimensions
 	dw PerrserkerPicFront, PerrserkerPicBack
 
-	db SCRATCH, GROWL, BITE, SCREECH ; level 1 learnset
+	db SCRATCH, GROWL, BITE, PAY_DAY ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

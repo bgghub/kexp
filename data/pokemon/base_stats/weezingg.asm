@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/weezingg.pic", 0, 1 ; sprite dimensions
 	dw WeezingGPicFront, WeezingGPicBack
 
-	db TACKLE, SMOG, SLUDGE, FAIRY_WIND ; level 1 learnset
+	db TACKLE, SMOG, ACID, FAIRY_WIND ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

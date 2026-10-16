@@ -1,15 +1,15 @@
 PokemonMansionB1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 35, GASTLY
-	db 35, KOFFING
-	db 35, GRIMER
-	db 34, DITTO
-	db 36, GASTLY
-	db 36, DITTO
-	db 42, WEEZING
-	db 42, MUK
-	db 38, DITTO
-	db 42, HAUNTER
+	db 59, HAUNTER
+	db 59, ANNIHILAPE
+	db 59, MUK_A
+	db 59, DITTO
+	db 59, HAUNTER
+	db 59, DITTO
+	db 59, WEEZING_G
+	db 59, IGUANARCH
+	db 59, DITTO
+	db 59, GORILLAIMO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -1,15 +1,15 @@
 CeruleanCave2FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 61, CROBAT
-	db 61, GLOOM
-	db 62, RAPIDASH
-	db 61, WEEPINBELL
-	db 61, WEEPINBELL
-	db 63, STEELIX
-	db 63, WIGGLYTUFF
-	db 65, DITTO
-	db 63, LICKITUNG
-	db 64, SNORLAX
+	db 99, VENUSAUR
+	db 99, CHARIZARD
+	db 99, TOTARTLE
+	db 99, GLOOM
+	db 99, WEEPINBELL
+	db 99, STEELIX
+	db 99, WIGGLYTUFF
+	db 99, DITTO
+	db 99, KANGASKHAN
+	db 99, SNORLAX
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

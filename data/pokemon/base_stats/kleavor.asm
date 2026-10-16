@@ -1,6 +1,6 @@
 	db DEX_KLEAVOR ; pokedex id
 
-	db  70, 135,  95,  85,  45
+	db  70, 135,  95,  85,  55
 	;   hp  atk  def  spd  spc
 
 	db BUG, ROCK ; type
@@ -10,11 +10,11 @@
 	INCBIN "gfx/pokemon/front/kleavor.pic", 0, 1 ; sprite dimensions
 	dw KleavorPicFront, KleavorPicBack
 
-	db QUICK_ATTACK, ROCK_THROW, NO_MOVE, NO_MOVE ; level 1 learnset
+	db QUICK_ATTACK, BARRAGE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
+	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT
 	; end

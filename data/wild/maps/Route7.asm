@@ -1,15 +1,15 @@
 Route7WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 19, PIDGEOTTO
-	db 19, MEOWTH
-	db 20, MEOWTH
-	db 20, PIDGEOTTO
-	db 19, SANDSHREW
-	db 18, KOLTA
-	db 18, SANDSHREW
-	db 19, KOLTA
-	db 19, VULPIX
-	db 20, VULPIX
+	db 40, PIDGEOTTO
+	db 40, HYPNO
+	db 40, HYPNO
+	db 40, PIDGEOTTO
+	db 40, SANDSHREW
+	db 40, RAPIDASH
+	db 40, SANDSHREW
+	db 40, RAPIDASH
+	db 40, VULPIX
+	db 40, VULPIX
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

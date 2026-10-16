@@ -3,14 +3,14 @@ CitrineWildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 10 ; encounter rate
-	db 40, TENTACRUEL
-	db 45, TENTACRUEL
-	db 50, PENDRAKEN
-	db 50, PENDRAKEN
-	db 45, JABETTA
-	db 45, JABETTA
-	db 45, TENTACRUEL
-	db 50, TENTACRUEL
-	db 50, SHARPOON
-	db 55, SHARPOON
+	db 90, KABUTOPS
+	db 90, OMASTAR
+	db 90, PENDRAKEN
+	db 90, PENDRAKEN
+	db 90, JABETTA
+	db 90, JABETTA
+	db 90, TENTACRUEL
+	db 90, TENTACRUEL
+	db 90, SHARPOON
+	db 90, SHARPOON
 	end_water_wildmons

@@ -1,6 +1,6 @@
 	db DEX_BELLIGNAN ; pokedex id
 
-	db  80, 120,  65,  70,  85
+	db  80, 120,  65,  70,  90
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/bellignan.pic", 0, 1 ; sprite dimensions
 	dw BellignanPicFront, BellignanPicBack
 
-	db SLEEP_POWDER, RAZOR_LEAF, LOVELY_KISS, ACID ; level 1 learnset
+	db SLEEP_POWDER, RAZOR_LEAF, WRAP, ACID ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         EGG_BOMB,     REST,         SUBSTITUTE,   \
 	     CUT
 	; end
 

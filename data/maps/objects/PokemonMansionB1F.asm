@@ -15,7 +15,7 @@ PokemonMansionB1F_Object:
 	object_event 19, 25, SPRITE_POKE_BALL, STAY, NONE, 5, TM_BLIZZARD
 	object_event  5,  4, SPRITE_POKE_BALL, STAY, NONE, 6, TM_SOLARBEAM
 	object_event 16, 20, SPRITE_POKEDEX, STAY, NONE, 7 ; person
-	object_event  5, 13, SPRITE_POKE_BALL, STAY, NONE, 8, SECRET_KEY
+	object_event  5, 13, SPRITE_POKE_BALL, STAY, NONE, 8, GOLD_TEETH
 	object_event 15,  4, SPRITE_GUARD, STAY, NONE, 9 ; person
 
 	def_warps_to POKEMON_MANSION_B1F

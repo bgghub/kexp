@@ -1,6 +1,6 @@
 	db DEX_MIMMEO ; pokedex id
 
-	db 100,  55,  50,  150,  50
+	db 100,  55,  50,  250,  50
 	;   hp  atk  def  spd  spc
 
 	db STEEL, STEEL ; type
@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm
+	tmhm REFLECT
 	; end
 
 	db BANK(MimmeoPicFront)

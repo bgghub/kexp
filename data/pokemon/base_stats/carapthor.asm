@@ -1,6 +1,6 @@
 	db DEX_CARAPTHOR ; pokedex id
 
-	db  60,  85,  50,  60,  60
+	db  60, 100,  50,  70,  60
 	;   hp  atk  def  spd  spc
 
 	db BUG, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/carapthor.pic", 0, 1 ; sprite dimensions
 	dw CarapthorPicFront, CarapthorPicBack
 
-	db UPPERCUT, LEECH_LIFE, STRING_SHOT, HARDEN ; level 1 learnset
+	db UPPERCUT, ABSORB, STRING_SHOT, HARDEN ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -18,7 +18,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         MEGA_DRAIN,   \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
+	     REFLECT,      BIDE,         EGG_BOMB,     SWIFT,        SKULL_BASH,   REST,         \
 	     SUBSTITUTE
 	; end
 

@@ -1,3 +1,13 @@
+Family Guy Expansion Pak is a modified version of KEP that amplifies the difficulty, adds new custom forms of existing species, and new moves.
+
+PLEASE read the spreadsheet for more information: https://docs.google.com/spreadsheets/d/1qbIMb6dqdWSFRkjTwbFHci7htGWuLw_6KwM0audDLAw/edit?gid=0#gid=0
+
+
+
+ORIGINAL DESCRIPTION BELOW 
+|||||||||||||||||||||
+VVVVVVVVVVVVVVVVVVVVV
+
 Kanto Expansion Pak
 ===================
 This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region with new Kanto-related Pokemon, more interesting locations, and QoL changes. It is a port of my [Pokemon Showdown Mod](https://github.com/PlagueVonKarma?tab=repositories), in a sense.

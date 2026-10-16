@@ -1,15 +1,15 @@
 SafariZoneWestWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 25, EXEGGCUTE
-	db 26, DODUO
-	db 26, EXEGGCUTE
-	db 25, CUBONE
-	db 29, VENOMOTH
-	db 26, CUBONE
-	db 29, MAROWAK
-	db 25, SCYTHER
-	db 26, TAUROS
-	db 10, CHANSEY
+	db 48, EXEGGUTOR_A
+	db 48, ARCANINE_H
+	db 48, EXEGGUTOR_A
+	db 48, TOEDSCRUEL
+	db 48, VENOMOTH
+	db 49, TOEDSCRUEL
+	db 49, MAROWAK_A
+	db 49, SCYTHER
+	db 50, TAUROS
+	db 50, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

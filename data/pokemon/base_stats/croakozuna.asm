@@ -1,6 +1,6 @@
 	db DEX_CROAKOZUNA ; pokedex id
 
-	db 134,  75,  70,  60,  75
+	db 134,  75,  70,  60,  90
 	;   hp  atk  def  spd  spc
 
 	db WATER, DARK ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/croakozuna.pic", 0, 1 ; sprite dimensions
 	dw CroakozunaPicFront, CroakozunaPicBack
 
-	db DOUBLE_TEAM, DOUBLESLAP, BUBBLE, MEDITATE ; level 1 learnset
+	db SPIKE_CANNON, DOUBLESLAP, BUBBLE, MEDITATE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

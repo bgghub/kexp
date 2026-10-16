@@ -1,6 +1,6 @@
 	db DEX_TRICULES ; pokedex id
 
-	db  65, 125, 140,  45,  55
+	db  65, 130, 140,  45,  55
 	;   hp  atk  def  spd  spc
 
 	db BUG, STEEL ; type
@@ -14,7 +14,7 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     REST,         SUBSTITUTE,   CUT,          STRENGTH

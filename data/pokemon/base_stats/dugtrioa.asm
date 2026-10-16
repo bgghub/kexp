@@ -1,6 +1,6 @@
 	db DEX_DUGTRIO_A ; pokedex id
 
-	db  35,  80,  60, 110,  70
+	db  35, 100,  60, 110,  70
 	;   hp  atk  def  spd  spc
 
 	db GROUND, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/dugtrioa.pic", 0, 1 ; sprite dimensions
 	dw DugtrioAPicFront, DugtrioAPicBack
 
-	db SCRATCH, GROWL, DIG, NO_MOVE ; level 1 learnset
+	db SCRATCH, GROWL, MAGNET_BOMB, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

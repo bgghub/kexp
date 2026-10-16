@@ -1,6 +1,6 @@
 	db DEX_BELLOSSOM ; pokedex id
 
-	db  75,  80,  85,  50, 100
+	db  75,  80,  85,  50, 105
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/bellossom.pic", 0, 1 ; sprite dimensions
 	dw BellossomPicFront, BellossomPicBack
 
-	db STUN_SPORE, SLEEP_POWDER, ABSORB, PETAL_DANCE ; level 1 learnset
+	db STUN_SPORE, SLEEP_POWDER, ACID, PETAL_DANCE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         EGG_BOMB,     REST,         SUBSTITUTE,   \
 	     CUT
 	; end
 

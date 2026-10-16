@@ -1,14 +1,14 @@
 Route2WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  4, RATTATA
-	db  3, PIDGEY
-	db  4, PIDGEY
-	db  3, WEEDLE
-	db  3, COINPUR
-	db  3, CATERPIE
-	db  4, WEEDLE
-	db  4, CATERPIE
-	db  4, COINPUR
+	db  5, KOLTA
+	db  5, PIDGEY
+	db  5, VULPIII
+	db  5, WEEDLE
+	db  5, COINPUR
+	db  5, CATERPIE
+	db  5, WEEDLE
+	db  5, CATERPIE
+	db  5, COINPUR
 	db  5, COINPUR
 	end_grass_wildmons
 

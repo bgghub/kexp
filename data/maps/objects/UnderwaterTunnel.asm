@@ -8,6 +8,6 @@ UnderwaterTunnel_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 19,  4, SPRITE_MONSTER, STAY, DOWN, 1, DRAGONITE, 55 | OW_POKEMON
+	object_event 19,  4, SPRITE_MONSTER, STAY, DOWN, 1, DRAGONITE, 70 | OW_POKEMON
 
 	def_warps_to UNDERWATER_TUNNEL

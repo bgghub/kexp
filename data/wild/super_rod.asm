@@ -56,52 +56,52 @@ SuperRodData:
 
 .Group1:	; Pallet, Viridian & Route 22
 	db 4
-	db 5, MAGIKARP
-	db 7, MAGIKARP
-	db 5, ORFRY
-	db 7, ORFRY
+	db 10, MAGIKARP
+	db 10, MAGIKARP
+	db 10, ORFRY
+	db 10, RIBBITO
 
 .Group2:	; Route 4, Cerulean, Route 24, Route 6
 	db 4
-	db 12, MAGIKARP
-	db 12, POLIWAG
-	db 12, ORFRY
-	db 12, PSYDUCK
+	db 15, MAGIKARP
+	db 15, POLIWAG
+	db 15, ORFRY
+	db 15, PSYDUCK
 
 .Group3:	; Route 25
 	db 4
-	db 12, MAGIKARP
-	db 12, POLIWAG
-	db 12, ORFRY
-	db 12, CHEEP
+	db 18, MAGIKARP
+	db 18, POLIWAG
+	db 18, ORFRY
+	db 18, CHEEP
 	
 .Group4:	; Route 11, Vermilion
 	db 4
-	db 15, BLOTTLE
-	db 15, MAGIKARP
-	db 15, TENTACOOL
-	db 15, CHEEP
+	db 20, BLOTTLE
+	db 20, MAGIKARP
+	db 20, TENTACOOL
+	db 20, CHEEP
 
 .Group5:	; Route 10, Route 12, Rock Tunnel
 	db 4
-	db 20, RIBBITO
-	db 20, POLIWAG
-	db 20, SLOWPOKE
-	db 20, KRABBY
+	db 25, RIBBITO
+	db 25, POLIWAG
+	db 25, SLOWPOKE
+	db 25, KRABBY
 
 .Group6:	; Route 13, Route 17, Route 18, Fuchsia, Route 23
 	db 4
-	db 25, HORSEA
-	db 25, POLIWHIRL
-	db 25, KRABBY
-	db 25, BLOTTLE
+	db 40, HORSEA
+	db 40, POLIWHIRL
+	db 40, KRABBY
+	db 40, BLOTTLE
 
 .Group7:	; Safari Zone
 	db 4
-	db 15, DRATINI
-	db 20, SLOWPOKE
-	db 25, KRABBY
-	db 25, WEIRDUCK
+	db 50, DRATINI
+	db 50, SLOWPOKE
+	db 50, KRABBY
+	db 50, WEIRDUCK
 
 .Group8:	; Bill's Garden
 	db 4
@@ -112,48 +112,48 @@ SuperRodData:
 
 .Group9:	; Cinnabar, Route 19-21, Seafoam Islands
 	db 4
-	db 30, STARYU
-	db 30, HORSEA
-	db 30, SHELLDER
-	db 30, GOLDEEN
+	db 50, STARYU
+	db 50, HORSEA
+	db 50, SHELLDER
+	db 50, WUGTRIO
 
 .Group10:	; Underwater Tunnel
 	db 4
-	db 35, SHELLDER
-	db 35, STARYU
-	db 35, CROAKOZUNA
-	db 35, GOLDUCK
+	db 60, SHELLDER
+	db 60, STARYU
+	db 60, CROAKOZUNA
+	db 60, GOLDUCK
 
 .Group11:	; Citrine, Brunswick, Garnet
 	db 4
-	db 50, KINGLER
-	db 50, SEADRA
-	db 50, PENDRAKEN
-	db 50, GYARADOS
+	db 80, KINGLER
+	db 80, KINGDRA
+	db 80, PENDRAKEN
+	db 80, GYARADOS
 
 .Group12:	; Cerulean Cave, Mt Moon Crater
 	db 4
-	db 50, SLOWBRO
-	db 50, SEAKING
-	db 50, GYARADOS
-	db 50, CROAKOZUNA
+	db 75, SLOWBRO
+	db 75, SEAKING
+	db 75, GYARADOS
+	db 75, CROAKOZUNA
 
 .Group13:	; Celadon
 	db 4
-	db 10, MAGIKARP
-	db 15, MAGIKARP
-	db 20, MAGIKARP
-	db 20, GRIMER
+	db 25, BLASTYKE
+	db 25, BLASTYKE
+	db 25, BLASTYKE
+	db 25, GRIMER
 
 .Group14:	; Diglett's Cave
 	db 4
-	db 17, WIGLETT
-	db 18, WIGLETT
-	db 19, WIGLETT
-	db 20, WIGLETT
+	db 25, WIGLETT
+	db 25, WIGLETT
+	db 25, WIGLETT
+	db 25, BLOTTLE
 
 .Group15:	; Cinnabar Volcano
 	db 3
-	db 35, MAGMAR
-	db 37, MAGMAR
-	db 40, MAGMAR
+	db 60, MAGMAR
+	db 60, HYPNO
+	db 60, ARCANINE_H

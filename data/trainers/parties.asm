@@ -68,196 +68,196 @@ TrainerDataPointers:
 ; To contrast with the Lass, in vanilla, he never uses Pidgey. Only Spearow.
 YoungsterData:
 ; Route 3
-	db 11, RATTATA, EKANS, 0
-	db 14, SPEAROW, 0
+	db 13, RATTATA, EKANS, 0
+	db 14, DODUO, 0
 ; Mt. Moon 1F
-	db 10, RATTATA, SPEAROW, BITTYBAT, 0
+	db 15, RATTATA, RHYHORN, BITTYBAT, 0
 ; Route 24
-	db 14, RATTATA, EKANS, ZUBAT, 0
+	db 17, RATICATE_A, PONYTA, ZUBAT, 0
 ; Route 25
-	db 15, RATTATA, SPEAROW, 0
-	db 15, SHELLDER, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch.
-	db 14, EKANS, SANDSHREW, 0
+	db 19, OMANYTE, SPEAROW, 0
+	db 19, SHELLDER, SLOWPOKE, 0 ; The famous "Slowpoke Kid" who was used for the Mew glitch.
+	db 19, KABUTO, SANDSHREW, 0
 ; SS Anne 1F Rooms
-	db 21, NIDORINO, 0
+	db 28, NIDORINO, 0
 ; Route 11
-	db 21, EKANS, 0
-	db 19, SANDSHREW, ZUBAT, 0
-	db 17, RATTATA, SPEAROW, RATICATE, 0
-	db 18, NIDORAN_M, NIDORINO, 0
+	db 35, HYPNO, 0
+	db 34, RHYDON, WUGTRIO, 0
+	db 33, PRIMEAPE, FEAROW, RATICATE_A, 0
+	db 34, NIDORAN_M, NIDORINO, 0
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, RATICATE, ARBOK, SLOWBRO, FEAROW, NIDOKING, VENUSAUR, 0
+	db 100, RATICATE, ARBOK, SLOWBRO, FEAROW, NIDOKING, VENUSAUR, 0
 
 ; Suffers heavily from limited Bug-types. Variety mainly comes from stripping them down and specialising them.
 BugCatcherData:
 ; Viridian Forest
-	db 6, WEEDLE, CATERPIE, 0
-	db 7, CATERPIE, KAKUNA, GENTLARVA, 0
-	db 9, VENONAT, 0
+	db 8, WEEDLE, GENTLARVA, 0
+	db 9, CATERPIE, VENONAT, EXEGGCUTE, 0
+	db 12, PARASECT, 0 ; sammy
 ; Route 3
-	db 10, GENTLARVA, PUPAL, 0 ; trimmed down to create counterpart trainers
-	db 10, WEEDLE, KAKUNA, 0 
-	db 10, CATERPIE, METAPOD, 0
+	db 13, CARAPTHOR, PARAS, 0 ; trimmed down to create counterpart trainers
+	db 13, BEEDRILL, VENONAT, 0 
+	db 13, BUTTERFREE, PINSIR, 0
 ; Mt. Moon 1F
-	db 12, PARAS, 0 
-	db 10, PUPAL, PARAS, 0
+	db 17, SCYTHER, 0 
+	db 16, TOEDSCOOL, CARAPTHOR, 0
 ; Route 24
-	db 14, GENTLARVA, WEEDLE, 0
+	db 35, GENTLARVA, WEEDLE, 0 ; overlevelled so it poses some threat
 ; Route 6
-	db 16, VENONAT, PARAS, 0 ; By this point, the player has fought like, 2 "three bugs" trainers. Toning it down.
-	db 17, BUTTERFREE, 0 ; this is that one boss fight-like one, levelled down for learnset reasons
+	db 26, VENOMOTH, PARASECT, 0 ; By this point, the player has fought like, 2 "three bugs" trainers. Toning it down.
+	db 27, TRICULES, 0 ; this is that one boss fight-like one, levelled down for learnset reasons
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, SCIZOR, CARAPTHOR, PARASECT, VENOMOTH, TRICULES, KLEAVOR, 0
+	db 100, SCIZOR, CARAPTHOR, PARASECT, VENOMOTH, TRICULES, KLEAVOR, 0
 ; Route 9
-	db 19, BUTTERFREE, BEEDRILL, 0
-	db 20, PUPAL, VENONAT, BEEDRILL, 0
+	db 35, BUTTERFREE, SCIZOR, 0
+	db 34, KLEAVOR, CARAPTHOR, BEEDRILL, 0
 
 ; A strange trainer that usually uses "cute" Pokemon, mainly Normal, Flying, and Grass types.
 ; Main exception is Pikachu and the Nidorans. I think adding Kotora enhances this nicely.
 LassData:
 ; Route 3
-	db 9, PIDGEY, CLEFAIRY, 0
-	db 10, RATTATA, NIDORAN_M, 0
-	db 14, JIGGLYPUFF, 0
+	db 13, JIGGLYPUFF, CLEFAIRY, 0
+	db 13, KOTORA, NIDORAN_M, 0
+	db 14, WIGGLYTUFF, 0
 ; Route 4
 	db 37, PARASECT, CLEFABLE, GOROTORA, 0 ; Random boss fight near Cerulean Cave. Buffed her nicely.
 ; Mt. Moon 1F
-	db 11, ODDISH, BELLSPROUT, 0
-	db 14, CLEFAIRY, 0
+	db 16, LEAFEON, TANGELA, 0
+	db 17, CLEFABLE, 0
 ; Route 24
-	db 16, KOTORA, PIKACHU, 0 ; why was this a carbon copy of the next entry??
-	db 16, PIDGEY, NIDORAN_F, 0
+	db 18, GAOTORA, PIKACHU, 0 ; why was this a carbon copy of the next entry??
+	db 18, BALUMBA, NIDORINA, 0
 ; Route 25
-	db 15, NIDORAN_M, NIDORAN_F, 0
-	db 13, ODDISH, PIDGEY, BULBASAUR, 0
+	db 19, NIDOKING, NIDOQUEEN, 0
+	db 18, GLOOM, BUTTERFREE, IVYSAUR, 0
 ; SS Anne 1F Rooms
-	db 18, PIDGEY, NIDORAN_F, 0
+	db 27, BLISSEY, PERRSERKER, 0
 ; SS Anne 2F Rooms
-	db 18, RATTATA, PIKACHU, 0
+	db 27, PERSIAN, JOLTEON, 0
 ; Route 8
-	db 23, NIDORAN_F, NIDORINA, 0
-	db 24, JIGGLYPUFF, MEOWTH, IVYSAUR, 0
-	db 19, PIDGEY, RATTATA, NIDORAN_M, MEOWTH, PIKACHU, 0
-	db 22, JIGGLYPUFF, CLEFAIRY, 0
+	db 36, BEEDRILL, PENDRAKEN, 0
+	db 35, WIGGLYTUFF, RAPIDASH_G, VENUSAUR, 0
+	db 33, DODRIO, RAMOOSE, NIDOQUEEN, DUGTRIO_A, RAICHU_A, 0
+	db 36, LUXWAN, CLEFABLE, 0
 ; Celadon Gym
-	db 23, LEAFEON, 0
-	db 23, ODDISH, GLOOM, 0
+	db 40, LEAFEON, 0
+	db 39, TANGROWTH, KANGASKHAN, 0
 ; Silph Gauntlet 2F (Mt. Moon)
-	db 57, PERSIAN, CLEFABLE, VILEPLUME, WIGGLYTUFF, POLITOED, NIDOQUEEN, 0
+	db 105, PERSIAN, CLEFABLE, VILEPLUME, WIGGLYTUFF, POLITOED, NIDOQUEEN, 0
 
 ; Pretty much a Fisher with Machops and the random Vermilion Gym featuring.
 SailorData:
 ; SS Anne Stern
-	db 18, MACHOP, BLOTTLE, 0
-	db 17, MACHOP, TENTACOOL, 0
+	db 27, MACHOKE, BLOTTLE, 0
+	db 27, PRIMEAPE, TENTACOOL, 0
 ; SS Anne B1F Rooms
-	db 21, SHELLDER, 0
-	db 17, HORSEA, SHELLDER, TENTACOOL, 0
-	db 18, TENTACOOL, STARYU, 0
-	db 17, POLIWAG, RIBBITO, PIKACHU, 0 ; I like the idea of Sailors using Pikachu to "light the way".
-	db 20, MACHOP, CHEEP, 0
+	db 28, CLOYSTER, 0
+	db 26, SEADRA, SHELLDER, TENTACOOL, 0
+	db 27, TENTACOOL, STARMIE, 0
+	db 26, POLIWRATH, RIBBITO, PIKACHU, 0 ; I like the idea of Sailors using Pikachu to "light the way".
+	db 27, BLASTYKE, JABETTA, 0
 ; Vermilion Gym
-	db 21, KOTORA, GAOTORA, 0
+	db 29, STARMIE, GAOTORA, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 58, KINGDRA, MACHAMP, GOROCHU, STARMIE, POLIWRATH, TENTACRUEL, 0
+	db 110, KINGDRA, MACHAMP, GOROCHU, STARMIE, POLIWRATH, TENTACRUEL, 0
 
 ; One of the most varied trainers in the game. No criticisms.
 JrTrainerMData:
 ; Pewter Gym
-	db 11, GEODUDE, SANDSHREW, 0
+	db 12, RHYHORN, SANDSHREW, 0
 ; Route 24/Route 25
-	db 14, RATTATA, EKANS, 0
+	db 19, RATICATE_A, KADABRA, 0
 ; Route 24
-	db 18, MANKEY, 0
+	db 19, HITMONTOP, 0
 ; Route 6
-	db 16, WEEPINBELL, 0 ; Joe from School of Hard Knocks, Indigo League Ep9, featured in Yellow
-	db 16, SPEAROW, RATICATE, 0
+	db 27, WEEPINBELL, 0 ; Joe from School of Hard Knocks, Indigo League Ep9, featured in Yellow
+	db 70, MAGIKARP, PUPAL, 0 ; overleveled meme fight
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, DUGTRIO, ANNIHILAPE, SANDSLASH, GOLEM, CROBAT, ARCANINE, 0
+	db 100, DUGTRIO, ANNIHILAPE, SANDSLASH, GOLEM, CROBAT, ARCANINE, 0
 ; Route 9
-	db 21, GROWLITHE, CHARMANDER, 0
-	db 19, RATTATA, DIGLETT, EKANS, SANDSHREW, 0
+	db 36, ARCANINE, CHARIZARD, 0
+	db 33, SLOWBRO_G, DUGTRIO, ARBOK, SANDSLASH_A, 0
 ; Route 12
-	db 29, NIDORAN_M, NIDORINO, 0
+	db 47, BELLOSSOM, ANNIHILAPE, 0
 
 ; As varied as the male counterpart. Improvements come from reducing repeats.
 JrTrainerFData:
 ; Cerulean Gym
-	db 19, ORFRY, GOLDEEN, 0
+	db 19, MAGIKARP, WEIRDUCK, 0
 ; Route 6
-	db 20, CUBONE, 0 ; Giselle from School of Hard Knocks, Indigo League Ep9, featured in Yellow
-	db 16, PIDGEY, SPEAROW, FARFETCHD, 0
+	db 27, MAROWAK_A, 0 ; Giselle from School of Hard Knocks, Indigo League Ep9, featured in Yellow
+	db 25, VENOMOTH, FEAROW, LUXWAN, 0
 ; Unused
 	db 22, BULBASAUR, CHARMANDER, SQUIRTLE, 0
 ; Route 9
-	db 18, ODDISH, BELLSPROUT, ODDISH, BELLSPROUT, 0 ; This trainer, often called the "Wrapping Lass", is a notorious run-killer. Do not change, she's a benchmark.
-	db 23, MEOWTH, 0
+	db 33, DISTURBAN, VICTREEBEL, TOEDSCRUEL, BELLIGNAN, 0 ; This trainer, often called the "Wrapping Lass", is a notorious run-killer. Do not change, she's a benchmark.
+	db 36, RHYDON, 0
 ; Route 10
-	db 20, PIKACHU, CLEFAIRY, 0
-	db 21, PIDGEY, PIDGEOTTO, 0
+	db 36, RAICHU_A, CLEFABLE, 0
+	db 36, SCIZOR, KLEAVOR, 0
 ; Rock Tunnel B1F
-	db 21, JIGGLYPUFF, PIDGEY, MEOWTH, 0
-	db 22, ODDISH, BULBASAUR, 0
+	db 36, WIGGLYTUFF, PIDGEOT, SYLVEON, 0
+	db 37, DUGTRIO, MAGNEZONE, 0
 ; Celadon Gym
-	db 24, BULBASAUR, IVYSAUR, 0
+	db 39, VENUSAUR, TOTARTLE, 0
 ; Route 13
-	db 24, PIDGEY, JIGGLYPUFF, RATTATA, PIKACHU, MEOWTH, 0
-	db 30, POLIWAG, POLIWAG, 0
-	db 27, PIDGEY, MEOWTH, FARFETCHD, PIDGEOTTO, 0
-	db 28, GOLDEEN, POLIWAG, HORSEA, 0
+	db 44, CROAKOZUNA, WIGGLYTUFF, RAPIDASH_G, PIKACHU, BALUMBA, 0
+	db 47, POLITOED, POLIWRATH, 0
+	db 45, SIRFETCHD, LICKILICKY, TRAMPEL, TAUROS, 0
+	db 46, MR_RIME, BLASTOISE, KINGDRA, 0
 ; Route 20
-	db 31, GOLDEEN, SEAKING, 0
+	db 64, TAUROS_PA, SEAKING, 0
 ; Rock Tunnel 1F
-	db 22, BELLSPROUT, CLEFAIRY, 0
-	db 20, MEOWTH, ODDISH, PIDGEY, 0
-	db 19, PIDGEY, RATTATA, CLEFAIRY, BELLSPROUT, 0
+	db 36, CACTORMUS, TRAMPEL, 0
+	db 35, PERRSERKER, VILEPLUME, BELLOSSOM, 0
+	db 34, GOLDUCK, SNORLAX, CLEFABLE, TOEDSCRUEL, 0
 ; Route 15
-	db 28, GLOOM, ODDISH, ODDISH, 0
-	db 29, PIKACHU, RAICHU, 0
-	db 33, CLEFAIRY, 0
-	db 29, BELLSPROUT, ODDISH, TANGELA, 0
+	db 46, BALUMBA, DODRIO, WEEZING, 0
+	db 47, JOLTEON, RAICHU_A, 0
+	db 48, BLISSEY, 0
+	db 46, LEAFEON, RAMOOSE, TANGROWTH, 0
 ; Route 20
-	db 30, TENTACOOL, HORSEA, SEEL, 0
+	db 63, TENTACRUEL, KINGDRA, DEWGONG, 0
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, BELLIGNAN, SEAKING, TANGROWTH, LUXWAN, BELLOSSOM, GOROCHU, 0
+	db 100, BELLIGNAN, SEAKING, TANGROWTH, LUXWAN, BELLOSSOM, GOROCHU, 0
 
 ; I praise the PokeManiac for its variety. He mainly uses "endangered", bipedal Pokemon.
 ; Squeamata seems appropriate here, as it's a baby iguana; these were often bought by those types in the 90s.
 PokemaniacData:
 ; Route 10
-	db 30, RHYHORN, LICKITUNG, 0
-	db 21, CHARMELEON, CUBONE, 0
+	db 36, RHYDON, LICKILICKY, 0
+	db 36, CHARIZARD, GUARDIA, 0
 ; Rock Tunnel B1F
-	db 20, SLOWPOKE, SQUEAMATA, RHYHORN, 0
-	db 22, CHARMANDER, CUBONE, 0
-	db 23, GAVILLAIN, 0
+	db 36, SLOWBRO, MINISTARE, DRAGONAIR, 0
+	db 37, CHARMANDER, EXEGGUTOR_A, 0
+	db 40, GAVILLAIN, 0 ; so that it can spam charge beam and sweep your entire team
 ; Victory Road 2F
-	db 40, MINISTARE, LAPRAS, LICKILICKY, RHYDON, 0
+	db 85, IGUANARCH, LAPRAS, LICKILICKY, DRAGONITE, 0
 ; Rock Tunnel 1F
-	db 23, CUBONE, SLOWPOKE, 0
+	db 37, GORILLAIMO, SLOWKING, 0
 ; Silph Gauntlet 2F (Mt. Moon)
-	db 57, GUARDIA, SLOWKING, CHARIZARD, STEELIX, LICKILICKY, RHYPERIOR, 0
+	db 105, GUARDIA, SLOWKING, CHARIZARD, STEELIX, LICKILICKY, RHYPERIOR, 0
 
 ; The Super Nerd has some weird choices, but I think they're mostly inorganic Pokemon, except for Fire-types that the Cinnabar Gym Trainers use.
 SuperNerdData:
 ; Mt. Moon 1F
-	db 11, MAGNEMITE, VOLTORB, 0
+	db 16, MAGNETITE, VOLTORB, 0
 ; Mt. Moon B2F - the fossil guy fight
-	db 12, GRIMER, VOLTORB, KOFFING, 0
+	db 18, GAVILLAIN, BALUMBA, SANDSLASH_A, 0
 ; Route 8
-	db 20, GRIMER, KOFFING, KOFFING, MAGNEMITE, 0
-	db 22, VOLTORB, KOFFING, MAGNETITE, 0
-	db 26, ELECTRODE, 0
+	db 34, GRIMER, KOFFING, KOFFING, MAGNEMITE, 0
+	db 35, VOLTORB, KOFFING, MAGNETITE, 0
+	db 37, ELECTRODE_H, 0
 ; Unused - both now used in Celadon University
-	db 30, PORYGON, 0 ;
-	db 25, GRIMER, KOFFING, KABUTO, OMANYTE, 0 ;
+	db 40, PORYGONZ, 0 ;
+	db 40, GRIMER, KOFFING, KABUTO, OMANYTE, 0 ;
 ; Silph Gauntlet 2F (Mt. Moon)
-	db 57, ELECTRODE, MUK, KABUTOPS, OMASTAR, MAGNEZONE, PORYGONZ, 0
+	db 105, ELECTRODE_H, MUK, KABUTOPS, OMASTAR, MAGNEZONE, PORYGONZ, 0
 ; Cinnabar Gym
-	db 36, VULPIX, NINETALES, CHARIZARD, 0
-	db 34, PONYTA, CHARMANDER, RAPIDASH, ARCANINE, 0
-	db 41, FLAREON, 0
-	db 37, CHARMELEON, MAGMAR, 0
+	db 68, HYPNO, NINETALES, ELECTRODE_H, 0
+	db 67, RAPIDASH, CHARIZARD, TOEDSCRUEL, ARCANINE, 0
+	db 70, FLAREON, 0
+	db 69, CHARIZARD, MAGMORTAR, 0
 
 ; Expanding the Hiker's cast is hard, as Rock-types are actually quite limited.
 ; Machop is more of an exception and not the rule, it's just "strong".
@@ -265,28 +265,28 @@ SuperNerdData:
 ; The Zubat line should also be there given how prevalent they tend to be inside caves...
 HikerData:
 ; Mt. Moon 1F
-	db 10, GEODUDE, GEODUDE, ONIX, 0
+	db 16, GEODUDE, SQUIRTLE, ONIX, 0
 ; Route 25
-	db 15, MACHOP, GEODUDE, 0
-	db 13, GEODUDE, ZUBAT, MACHOP, ZUBAT, 0
-	db 17, ONIX, 0
+	db 19, HITMONLEE, RHYHORN, 0
+	db 17, GEODUDE, ZUBAT, KLEAVOR, GORILLAIMO, 0
+	db 20, STEELIX, 0
 ; Route 9
-	db 21, GEODUDE, ONIX, 0
-	db 20, GEODUDE, MACHOP, DIGLETT, 0
+	db 35, GORILLAIMO, STEELIX, 0
+	db 34, GOLEM, MACHAMP, DUGTRIO, 0
 ; Route 10
-	db 21, CUBONE, ONIX, 0
-	db 19, ZUBAT, GRAVELER, 0
+	db 36, GUARDIA, MUK_A, 0
+	db 36, CROBAT, UMBREON, 0
 ; Rock Tunnel B1F
-	db 21, GEODUDE, GEODUDE, GRAVELER, 0 ; The "Self-Destructing Hiker", fairly notorious and good to keep
-	db 24, GOLBAT, 0
+	db 34, GOLEM_A, ELECTRODE_H, CLOYSTER, LICKILICKY, MUK_A, 0 ; The "Self-Destructing Hiker", fairly notorious and good to keep
+	db 38, NIDOKING, 0
 ; Route 9/Rock Tunnel B1F
-	db 20, MACHOP, RHYHORN, 0
+	db 37, MACHAMP, RHYDON, 0
 ; Rock Tunnel 1F
-	db 19, GEODUDE, MACHOP, RHYHORN, 0
-	db 20, ZUBAT, DIGLETT, ONIX, 0
-	db 21, GEODUDE, GRAVELER, 0
+	db 36, GOLEM, ANNIHILAPE, OMASTAR, 0
+	db 36, GOLBAT, KABUTOPS, STEELIX, 0
+	db 37, ARCANINE_H, GOLEM_A, 0
 ; Silph Gauntlet 2F (Mt. Moon)
-	db 57, STEELIX, GOLEM, MACHAMP, CROBAT, DUGTRIO, GUARDIA, 0
+	db 105, STEELIX, GOLEM, MACHAMP, CROBAT, DUGTRIO, GUARDIA, 0
 
 ; Poison Pokemon. Poison Pokemon everywhere.
 ; Much of this seems to represent the pollution caused by petrol gas.
@@ -298,164 +298,164 @@ HikerData:
 ; There seems to be a common "coughing and wheezing" joke here, shifting that around too.
 BikerData:
 ; Route 13
-	db 28, KOFFING, GASTLY, 0
+	db 47, ANNIHILAPE, GENGAR, 0
 ; Route 14
-	db 29, GRIMER, KOFFING, 0
+	db 47, MUK_A, WEEZING_G, 0
 ; Route 15
-	db 25, KOFFING, GRIMER, WEEZING, 0
-	db 28, GASTLY, GRIMER, WEEZING, 0
+	db 46, WEEZING_G, SLOWBRO_G, WEEZING, 0
+	db 46, BALUMBA, SLOWKING_G, WEEZING, 0
 ; Route 16
-	db 29, GRIMER, KOFFING, 0
-	db 33, WEEZING, 0
-	db 26, CHARMELEON, 0
+	db 47, HYPNO, ARCANINE, 0
+	db 48, DRAGONAIR, 0
+	db 48, CHARIZARD, 0
 ; Route 17 (Cycling Road)
-	db 28, WEEZING, KOFFING, WEEZING, 0
-	db 33, FLAREON, 0
-	db 29, VOLTORB, GAOTORA, 0
-	db 29, WEEZING, MUK, 0
-	db 25, CHARMANDER, WEEZING, HORSEA, 0
+	db 46, WEEZING, ALAKAZAM, PENDRAKEN, 0
+	db 48, FLAREON, 0
+	db 47, ELECTRODE, GOROTORA, 0
+	db 47, KINGDRA, GORILLAIMO, 0
+	db 46, NINETALES, ARBOK, NIDOQUEEN, 0
 ; Route 14
-	db 26, KOFFING, KOFFING, GRIMER, KOFFING, 0
-	db 28, GRIMER, GRIMER, SEADRA, 0
-	db 29, MAGMAR, 0
+	db 45, NIDOKING, BEEDRILL, PERRSERKER, UMBREON, 0
+	db 46, ESPEON, HYPNO, KINGDRA, 0
+	db 48, MINISTARE, 0
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 59, GOROTORA, MUK_A, WEEZING, FLAREON, KINGDRA, CHARIZARD, 0
+	db 115, GOROTORA, MUK_A, WEEZING, FLAREON, KINGDRA, CHARIZARD, 0
 
 ; Fire specialist
 BurglarData:
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 59, RAPIDASH, CROAKOZUNA, ARCANINE, PERSIAN_A, WEEZING, MAGMORTAR, 0
+	db 115, RAPIDASH, CROAKOZUNA, ARCANINE, PERSIAN_A, WEEZING, MAGMORTAR, 0
 ; Unused
 	db 33, GROWLITHE, 0
 	db 28, VULPIX, CHARMANDER, PONYTA, 0
 ; Cinnabar Gym
-	db 36, GROWLITHE, VULPIX, ARCANINE, 0
-	db 41, RAPIDASH, 0
-	db 37, VULPIX, NINETALES, 0
+	db 68, ARCANINE_H, TANGROWTH, HYPNO, 0
+	db 70, RAPIDASH, 0
+	db 69, BELLIGNAN, NINETALES, 0
 ; Mansion 2F
-	db 34, CHARMANDER, CHARMELEON, 0
+	db 66, DRAGONITE, CHARIZARD, 0
 ; Mansion 3F
-	db 38, KOLTA, NINETALES, 0
+	db 66, NINETALES, IGUANARCH, 0
 ; Mansion B1F
-	db 34, GROWLITHE, PONYTA, 0
+	db 66, LICKILICKY, ARCANINE_H, 0
 
 ; Electric dude with little variety due to not being seen often
 EngineerData:
 ; Unused - used in celadon university
-	db 36, GOLEM, 0
+	db 41, GOLEM_A, 0
 ; Route 11
-	db 21, KOTORA, VOLTORB, 0
-	db 18, MAGNEMITE, MAGNEMITE, PIKACHU, 0
+	db 34, GOLEM_A, ELECTRODE, 0
+	db 33, MAGNEZONE, STEELIX, GOROCHU, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 58, ELECTRODE, SANDSLASH_A, ELECTIVIRE, GOROTORA, PERRSERKER, SCIZOR, 0   ; The Engineer trainer EXCLUSIVELY uses Magnemites and Voltorbs in normal battles, so I kinda had to improvise with his team a bit...
+	db 110, MELMETAL, SANDSLASH_A, ELECTIVIRE, GOROTORA, PERRSERKER, SCIZOR, 0   ; The Engineer trainer EXCLUSIVELY uses Magnemites and Voltorbs in normal battles, so I kinda had to improvise with his team a bit...
 
 ; Super Rod encounter showcase, basically
 FisherData:
 ; SS Anne 2F Rooms
-	db 17, GOLDEEN, TENTACOOL, KRABBY, 0
+	db 26, GOLDEEN, TENTACOOL, KRABBY, 0
 ; SS Anne B1F Rooms
-	db 17, TENTACOOL, STARYU, SHELLDER, 0
+	db 26, TENTACOOL, STARYU, SHELLDER, 0
 ; Route 12
-	db 22, GOLDEEN, POLIWAG, CHEEP, 0
-	db 24, TENTACOOL, GOLDEEN, 0
-	db 27, SEADRA, 0 ; You can catch low-level Seadra in places, I like the surprise.
-	db 21, POLIWAG, SHELLDER, GOLDEEN, HORSEA, 0
+	db 45, KINGLER, POLITOED, JABETTA, 0
+	db 46, TENTACRUEL, GYARADOS, 0
+	db 47, KINGDRA, 0 ; You can catch low-level Seadra in places, I like the surprise.
+	db 44, BLASTOISE, DEWGONG, OMASTAR, KABUTOPS, 0
 ; Route 21
-	db 28, PSYDUCK, CHEEP, KINGLER, 0
-	db 31, SHELLDER, DISTURBAN, 0
-	db 27, MAGIKARP, MAGIKARP, MAGIKARP, MAGIKARP, MAGIKARP, MAGIKARP, 0 ; he's too iconic to change
-	db 33, SEAKING, SHARPOON, 0
+	db 64, PSYDUCK, CHEEP, KINGLER, 0
+	db 65, SHELLDER, DISTURBAN, 0
+	db 100, MAGIKARP, MAGIKARP, MAGIKARP, MAGIKARP, MAGIKARP, MAGIKARP, 0 ; he's too iconic to change
+	db 65, TOTARTLE, SHARPOON, 0
 ; Route 12
-	db 24, BLASTYKE, WIGLETT, 0
+	db 47, WUGTRIO, SLOWBRO, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 58, GYARADOS, SEAKING, DISTURBAN, WUGTRIO, BLASTOISE, PENDRAKEN, 0
+	db 110, GYARADOS, SEAKING, DISTURBAN, WUGTRIO, BLASTOISE, PENDRAKEN, 0
 ; Brunswick Trail
-	db 57, POLIWRATH, MACHAMP, GOROTORA, PENDRAKEN, TAUROS_PA, 0
+	db 96, POLIWRATH, MACHAMP, GOROTORA, PENDRAKEN, TAUROS_PA, 0
 
 ; God this took forever to remove repeats from
 ; Surf encounter extravaganza
 SwimmerData:
 ; Cerulean Gym
-	db 16, HORSEA, SHELLDER, 0
+	db 19, SEEL, HORSEA, 0
 ; Route 19
-	db 30, TENTACOOL, PENDRAKEN, 0
-	db 29, GOLDEEN, HORSEA, STARYU, 0
-	db 30, WEIRDUCK, POLIWHIRL, 0
-	db 27, HORSEA, TENTACOOL, TENTACOOL, GOLDEEN, 0
-	db 29, GOLDEEN, SEAKING, WEIRDUCK, 0
-	db 30, WIGLETT, CLOYSTER, 0
-	db 27, TENTACOOL, TENTACOOL, STARYU, HORSEA, TENTACRUEL, 0
+	db 64, BLASTOISE, PENDRAKEN, 0
+	db 63, SHARPOON, KINGDRA, STARMIE, 0
+	db 64, BUU, POLIWRATH, 0
+	db 62, KINGDRA, TENTACRUEL, SEAKING, GYARADOS, 0
+	db 63, TAUROS_PA, TOTARTLE, GOLDUCK, 0
+	db 64, JYNX, CLOYSTER, 0
+	db 61, TOTARTLE, BLASTOISE, GORILLAIMO, GUARDIA, TENTACRUEL, 0
 ; Route 20
-	db 31, SHELLDER, CLOYSTER, 0
-	db 35, STARYU, 0
-	db 28, HORSEA, BLOTTLE, SEADRA, PENDRAKEN, 0
+	db 64, DISTURBAN, CLOYSTER, 0
+	db 65, LAPRAS, 0
+	db 62, DEWGONG, CROAKOZUNA, WUGTRIO, PENDRAKEN, 0
 ; Route 21
-	db 33, SEADRA, TENTACRUEL, 0
-	db 37, STARMIE, 0
-	db 33, BLASTYKE, STARYU, WARTORTLE, 0
-	db 32, POLIWHIRL, TENTACOOL, GOLDUCK, 0
+	db 65, JABETTA, TENTACRUEL, 0
+	db 66, STARMIE, 0
+	db 64, LICKILICKY, JABETTA, TOTARTLE, 0
+	db 64, SLOWBRO, SLOWKING, GOLDUCK, 0
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, LAPRAS, KINGDRA, CLOYSTER, GOLDUCK, POLIWRATH, TENTACRUEL, 0
+	db 120, LAPRAS, KINGDRA, CLOYSTER, GOLDUCK, POLIWRATH, TENTACRUEL, 0
 
 ; Fighting specialist, very odd.
 CueBallData:
 ; Route 16
-	db 28, MACHOP, MANKEY, RATICATE, 0
-	db 29, MANKEY, RIBBITO, 0
-	db 33, CARAPTHOR, 0
+	db 46, MACHAMP, SIRFETCHD, RATICATE_A, 0
+	db 47, ANNIHILAPE, CROAKOZUNA, 0
+	db 48, CARAPTHOR, 0
 ; Route 17
-	db 29, MANKEY, PRIMEAPE, 0
-	db 29, CHEEP, JABETTA, 0
-	db 33, MACHOKE, 0
-	db 26, MANKEY, MACHOKE, CROAKOZUNA, 0
-	db 29, PRIMEAPE, MACHOKE, 0
+	db 47, VENOMOTH, ANNIHILAPE, 0
+	db 47, LICKILICKY, JABETTA, 0
+	db 48, SNORLAX, 0
+	db 46, HITMONLEE, HITMONCHAN, CROAKOZUNA, 0
+	db 47, TRICULES, SCIZOR, 0
 ; Route 21
-	db 31, TENTACOOL, TENTACOOL, TENTACRUEL, 0
+	db 64, TAUROS_P, OMEGADGE, TENTACRUEL, 0 ; aside from major bosses there will be two trainers in the entire game with a legendary pokemon and this is one of them
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, ANNIHILAPE, RATICATE_A, CROAKOZUNA, PERSIAN_A, MACHAMP, GORILLAIMO, 0
+	db 120, ANNIHILAPE, RATICATE_A, CROAKOZUNA, PERSIAN_A, MACHAMP, GORILLAIMO, 0
 
 ; Big variety, kind of aimless; seems to be a counterparts thing.
 GamblerData:
 ; Route 11
-	db 18, POLIWAG, HORSEA, 0
-	db 18, BELLSPROUT, ODDISH, 0
-	db 18, VOLTORB, MAGNEMITE, 0
-	db 18, GROWLITHE, VULPIX, 0
+	db 34, POLIWRATH, KINGDRA, 0
+	db 34, BELLIGNAN, BELLOSSOM, 0
+	db 34, ELECTRODE_H, MAGNEZONE, 0
+	db 34, ARCANINE_H, NINETALES, 0
 ; Route 8
-	db 22, POLIWAG, RIBBITO, POLIWHIRL, 0
+	db 35, PENDRAKEN, CROAKOZUNA, JABETTA, 0
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 59, SEAKING, RHYPERIOR, ELECTRODE, ARCANINE, GOLEM, POLITOED, 0
+	db 115, SEAKING, RHYPERIOR, ELECTRODE, ARCANINE, GOLEM, POLITOED, 0
 ; Route 8
-	db 24, CACTORMUS, 0 ; This was a repeat of Growlithe/Vulpix, so I made it a Game Corner prize instead.
+	db 40, CACTORMUS, 0 ; This was a repeat of Growlithe/Vulpix, so I made it a Game Corner prize instead.
 
 ; Very varied, little criticism outside of minor repeats.
 ; Seems to use whatever the route demands of the class, which I enjoy seeing.
 ; There is a minor focus on "cute" and "regal" Pokemon.
 BeautyData:
 ; Celadon Gym
-	db 21, ODDISH, BELLSPROUT, WEEPINBELL, 0
-	db 24, TOEDSCOOL, GLOOM, 0
-	db 26, RAMOOSE, 0
+	db 38, BELLOSSOM, ELECTRODE_H, EXEGGUTOR_A, 0
+	db 39, TOEDSCRUEL, CACTORMUS, 0
+	db 40, RAMOOSE, 0
 ; Route 13
-	db 27, RATTATA, PIKACHU, JIGGLYPUFF, 0
-	db 29, CLEFAIRY, MEOWTH, 0
+	db 46, RATICATE, GOROCHU, WIGGLYTUFF, 0
+	db 47, CLEFABLE, PERRSERKER, 0
 ; Route 20
-	db 35, SEAKING, 0
-	db 30, SHELLDER, DISTURBAN, CLOYSTER, 0
-	db 31, POLIWAG, SEAKING, 0
+	db 65, SEAKING, 0
+	db 63, NINETALES_A, DISTURBAN, CLOYSTER, 0
+	db 64, SLOWKING, SEAKING, 0
 ; Route 15
-	db 29, PERSIAN, 0 ; it doesn't have slash until like L47 trust me it's fine
-	db 29, BULBASAUR, IVYSAUR, 0
+	db 48, CHARIZARD, 0 ; it doesn't have slash until like L47 trust me it's fine
+	db 47, TOTARTLE, VENUSAUR, 0
 ; Silph Gauntlet 2F (Mt. Moon)
-	db 57, PERSIAN, VICTREEBEL, WIGGLYTUFF, MACHAMP, CLOYSTER, SYLVEON, 0
+	db 105, PERSIAN, VICTREEBEL, WIGGLYTUFF, MACHAMP, CLOYSTER, SYLVEON, 0
 ; Route 19
-	db 27, POLIWAG, GOLDEEN, SEAKING, 0
-	db 30, BLASTYKE, GOLDUCK, 0
-	db 29, STARYU, WEIRDUCK, SEAKING, 0
+	db 63, SYLVEON, GLACEON, VAPOREON, 0
+	db 64, BLASTOISE, GOLDUCK, 0
+	db 63, KANGASKHAN, TAUROS_PB, SEAKING, 0
 ; Route 20
-	db 30, KINGDRA, 0 ; Close to the Trader
+	db 65, KINGDRA, 0 ; Close to the Trader
 ; Brunswick Trail
-	db 58, PERSIAN, VENUSAUR, KINGDRA, SYLVEON, CLOYSTER, 0
+	db 96, PERSIAN, VENUSAUR, KINGDRA, SYLVEON, CLOYSTER, 0
 ; Celeste Hill?
 	db 60, MR_MIME, WIGGLYTUFF, NINETALES_A, PENDRAKEN, 0 ; Mina
 	db 62, PERSIAN, PERSIAN_A, PERRSERKER, 0 ; Selphy
@@ -464,319 +464,319 @@ BeautyData:
 ; yep psychic yep psychic yep psychic
 PsychicData:
 ; Saffron Gym
-	db 31, KADABRA, SLOWPOKE, MR_MIME, DROWZEE, 0
-	db 34, MR_MIME, KADABRA, 0
-	db 33, SLOWKING, SLOWBRO, 0 ; not as strong as it looks, has no good attacks
-	db 38, JYNX, 0
+	db 57, EXEGGUTOR, SLOWBRO_G, MR_MIME, HYPNO, 0
+	db 59, MR_RIME, ALAKAZAM, 0
+	db 59, SLOWKING, SLOWBRO, 0 ; not as strong as it looks, has no good attacks
+	db 60, JYNX, 0
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, SLOWBRO, EXEGGUTOR, STARMIE, MR_RIME, ESPEON, ALAKAZAM, 0 
+	db 120, SLOWBRO, EXEGGUTOR_A, STARMIE, MR_RIME, ESPEON, MEW, 0 
 
 ; Electric specialist with depressingly little representation.
 RockerData:
 ; Vermilion Gym
-	db 20, VOLTORB, MAGNEMITE, KOTORA, 0
+	db 28, VOLTORB, MAGNETITE, GOROTORA, 0
 ; Route 12
-	db 29, VOLTORB, ELECTRODE, 0
+	db 47, JOLTEON, ELECTRODE, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 58, GAVILLAIN, ELECTRODE, MAGNEZONE, GOLEM_A, GOROCHU, JOLTEON, 0
+	db 110, GAVILLAIN, ELECTRODE, MAGNEZONE, GOLEM_A, GOROCHU, JOLTEON, 0
 
 ; Psychic, Poison, and a little bit of Voltorb.
 JugglerData:
 ; Silph Co. 5F
-	db 29, ELECTRODE, KADABRA, MR_MIME, 0
+	db 56, ELECTRODE, SLOWBRO_G, MR_RIME, 0
 ; Victory Road 2F
-	db 41, DROWZEE, HYPNO, ESPEON, KADABRA, 0
+	db 85, VENOMOTH, HYPNO, ESPEON, KANGASKHAN, 0
 ; Fuchsia Gym
-	db 31, BEEDRILL, HAUNTER, VILEPLUME, 0
-	db 34, GOLBAT, TENTACRUEL, 0
+	db 48, BEEDRILL, GENGAR, VILEPLUME, 0
+	db 49, CROBAT, TENTACRUEL, 0
 ; Victory Road 2F
-	db 48, ELECTRODE, HYPNO, MR_MIME, 0 ; buffed roster
+	db 86, ELECTRODE_H, RAPIDASH_G, MR_MIME, 0 ; buffed roster
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, HYPNO, MR_MIME, ALAKAZAM, ELECTRODE, VICTREEBEL, SLOWKING_G, 0
+	db 120, HYPNO, MR_RIME, ALAKAZAM, ELECTRODE, VICTREEBEL, SLOWKING_G, 0
 ; Fuchsia Gym
-	db 38, UMBREON, 0
+	db 50, UMBREON, 0
 ; Fuchsia Gym
-	db 34, WEEPINBELL, BELLIGNAN, 0
+	db 49, SLOWKING_G, BELLIGNAN, 0
 
 ; In Japanese, they are called "Fierce Beast users", and in turn use Pokemon
 ; based on those "fierce" beasts. Think lions, etc.
 ; Basically, Safari Zone extravaganza.
 TamerData:
 ; Fuchsia Gym
-	db 34, NIDOQUEEN, ARBOK, 0
-	db 33, ARBOK, NIDORINA, NIDOKING, 0
+	db 49, NIDOQUEEN, ARBOK, 0
+	db 48, VENOMOTH, MUK_A, NIDOKING, 0
 ; Viridian Gym
-	db 43, RHYDON, 0
-	db 39, SANDSLASH, TRAMPEL, 0
+	db 80, RHYPERIOR, 0
+	db 79, DRAGONITE, TRAMPEL, 0
 ; Victory Road 2F
-	db 44, KANGASKHAN, TAUROS, GOLDUCK, PRIMEAPE, 0
+	db 85, KANGASKHAN, TAUROS, IGUANARCH, ANNIHILAPE, 0
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, RHYPERIOR, ARBOK, KANGASKHAN, ANNIHILAPE, TRAMPEL, TAUROS, 0
+	db 120, RHYPERIOR, ARBOK, KANGASKHAN, ANNIHILAPE, TRAMPEL, TAUROS, 0
 
 ; yep bird yep bird yep bird yep bird
 ; If nothing else, just make them less agonising to fight.
 ; Namely, reduce the amount of Pokemon on their teams.
 BirdKeeperData:
 ; Route 13
-	db 29, PIDGEY, PIDGEOTTO, 0
-	db 25, FARFETCHD, PIDGEY, SPEAROW, 0
-	db 26, PIDGEY, PIDGEOTTO, SPEAROW, FEAROW, 0
+	db 47, CROBAT, PIDGEOT, 0
+	db 46, BUTTERFREE, CHARIZARD, FEAROW, 0
+	db 45, BALUMBA, PIDGEOT, SCYTHER, FEAROW, 0
 ; Route 14
-	db 33, FEAROW, 0
-	db 29, SPEAROW, FEAROW, 0
+	db 48, KLEAVOR, 0
+	db 47, SCIZOR, FEAROW, 0
 ; Route 15
-	db 26, PIDGEOTTO, DODUO, PIDGEOTTO, 0
-	db 28, FARFETCHD, DODRIO, 0
+	db 46, PIDGEOT, DODRIO, BUTTERFREE, 0
+	db 47, SIRFETCHD, CARAPTHOR, 0
 ; Route 18
-	db 29, SPEAROW, FEAROW, 0
-	db 34, DODRIO, 0
-	db 26, SPEAROW, DODUO, FEAROW, DODUO, 0
+	db 47, AERODACTYL, FEAROW, 0
+	db 48, DODRIO, 0
+	db 45, LUXWAN, PORYGON2, FEAROW, JABETTA, 0
 ; Route 20
-	db 30, FEAROW, LUXWAN, PIDGEOTTO, 0
+	db 64, FEAROW, LUXWAN, GYARADOS, 0
 ; Brunswick Trail
-	db 57, PIDGEOT, SIRFETCHD, DODRIO, AERODACTYL, 0
+	db 97, PIDGEOT, SIRFETCHD, DODRIO, AERODACTYL, 0
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, PIDGEOT, FEAROW, DODRIO, SIRFETCHD, LUXWAN, AERODACTYL, 0
+	db 100, PIDGEOT, ARTICUNO, DODRIO, SIRFETCHD, LUXWAN, AERODACTYL, 0
 ; Route 14
-	db 28, PIDGEY, DODUO, PIDGEOTTO, 0
-	db 26, PIDGEY, SPEAROW, PIDGEY, FEAROW, 0
-	db 29, PIDGEOTTO, FEAROW, 0
-	db 28, SPEAROW, DODUO, FEAROW, 0
+	db 46, GYARADOS, CROBAT, PIDGEOT, 0
+	db 45, KLEAVOR, SCIZOR, KINGDRA, FEAROW, 0
+	db 47, PORYGONZ, FEAROW, 0
+	db 46, DODRIO, CROBAT, WUGTRIO, 0
 
 ; Fighting specialist, even the ones in Giovanni's gym!
 ; These have been changed to bulky, 'intimidating' Ground types to fit the theme
 BlackbeltData:
 ; Fighting Dojo Trainers
-	db 31, MANKEY, MACHOKE, JABETTA, 0
-	db 32, PRIMEAPE, CARAPTHOR, 0
-	db 35, GORILLAIMO, 0
-	db 33, MACHOP, POLIWRATH, 0
+	db 58, ANNIHILAPE, MACHAMP, JABETTA, 0
+	db 59, HITMONTOP, CARAPTHOR, 0
+	db 60, GORILLAIMO, 0
+	db 59, MACHAMP, POLIWRATH, 0
 ; Viridian Gym	- changed to fit the Ground-type gym theme
-	db 40, MAROWAK, GOLEM, 0
-	db 43, GUARDIA, 0
-	db 38, CACTORMUS, DUGTRIO, STEELIX, 0
+	db 79, GUARDIA, GOLEM_A, 0
+	db 80, SNORLAX, 0
+	db 78, CACTORMUS, DUGTRIO, STEELIX, 0
 ; Victory Road 2F
-	db 43, MACHOKE, MACHOP, MACHOKE, 0
+	db 86, MIMMEO, ZAPDOS_G, ANNIHILAPE, 0
 ; Silph Gauntlet 2F (Mt. Moon)
-	db 63, HITMONTOP, JABETTA, GORILLAIMO, POLIWRATH, CARAPTHOR, MACHAMP, 0
+	db 105, HITMONTOP, JABETTA, GORILLAIMO, POLIWRATH, CARAPTHOR, MACHAMP, 0
 
 ; Uses Silph products and Steel-types
 ChiefData:
 ; Silph Gauntlet 7F
-	db $FF, 66, ELECTRODE, 65, LAPRAS, 66, SCIZOR, 65, GENGAR, 68, PORYGONZ, 70, OMEGADGE, 0
-	db $FF, 73, ELECTRODE, 72, LAPRAS, 73, SCIZOR, 72, GENGAR, 75, PORYGONZ, 78, OMEGADGE, 0
+	db $FF, 125, ELECTRODE_H, 125, LAPRAS, 126, SCIZOR, 126, GENGAR, 127, PORYGONZ, 128, OMEGADGE, 0
+	db $FF, 147, ELECTRODE_H, 147, LAPRAS, 148, SCIZOR, 148, GENGAR, 149, PORYGONZ, 150, OMEGADGE, 0
 ; Lapras and Gengar are used here since Lapras is given by a Silph worker, and Gengar represents the Silph Scope.
 
 ; Poison- and Electric-type Pokemon
 ScientistData:
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 59, MAGNEZONE, ELECTRODE, PORYGONZ, MIMMEO, GAVILLAIN, WEEZING, 0
+	db 115, MAGNEZONE, ELECTRODE, PORYGONZ, MIMMEO, GAVILLAIN, WEEZING, 0
 ; Silph Co. 2F (unused)
 	db 26, GRIMER, WEEZING, KOFFING, WEEZING, 0
 	db 28, MAGNETITE, VOLTORB, MAGNETON, 0
 ; Silph Co. 3F
-	db 29, ELECTRODE, MUK, 0
+	db 57, ELECTRODE, MUK, 0
 ; Mansion 1F
-	db 36, VOLTORB, ELECTRODE, KOFFING, 0
+	db 65, VOLTORB, ELECTRODE, KOFFING, 0
 ; Silph Co. 5F
-	db 26, MAGNEMITE, VOLTORB, WEEZING, MAGNETITE, 0
+	db 55, PIKACHU, ELECTRODE, WEEZING, MAGNETON, 0
 ; Silph Co. 6F (unused)
 	db 25, VOLTORB, KOFFING, MAGNETITE, MAGNEMITE, KOFFING, 0
 ; Silph Co. 7F
-	db 29, ELECTRODE, PORYGON, 0 ; stolen technology!!!
+	db 57, ELECTRODE, PORYGON, 0 ; stolen technology!!!
 ; Cinnabar Volcano
-	db 37, GAVILLAIN, WEEZING, 0
+	db 66, GAVILLAIN, WEEZING_G, PORYGONZ, SNORLAX, SCIZOR, MAGNEZONE, 0
 ; Silph Co. 9F
-	db 28, VOLTORB, KOFFING, MAGNETON, 0
+	db 56, VOLTORB, KOFFING, MAGNETON, 0
 ; Silph Co. 10F (unused)
 	db 29, MAGNETITE, KOFFING, 0
 ; Mansion 3F
-	db 33, MAGNETITE, MAGNETON, DITTO, 0
+	db 65, MAGNETITE, MAGNETON, DITTO, 0
 ; Mansion B1F
-	db 34, MAGNETITE, ELECTRODE, 0
+	db 66, MAGNETITE, ELECTRODE, 0
 
 ; Gave the Rockets more Sandshrew, Cubone, and Voltorb, Pokemon shown to be used quite a bit in various media.
 RocketData:
 ; Mt. Moon B2F
-	db 13, RATTATA, ZUBAT, 0
-	db 11, SANDSHREW, RATTATA, BITTYBAT, 0
-	db 12, ZUBAT, EKANS, 0
-	db 16, RATICATE, 0
+	db 16, RATTATA, PIKACHU, 0
+	db 15, SANDSHREW, EEVEE, ZUBAT, 0
+	db 16, GEODUDE, EKANS, 0
+	db 17, RATICATE, 0
 ; Cerulean City
-	db 17, MACHOP, DROWZEE, 0
+	db 21, DISTURBAN, SQUEAMATA, ARCANINE_H, 0 ; dig tm guy
 ; Route 24
-	db 15, EKANS, ZUBAT, 0
+	db 20, EKANS, GOLBAT, CARAPTHOR, STEELIX, 0
 ; Game Corner
-	db 22, ZUBAT, KOFFING, RATICATE, ARBOK, 0
+	db 35, CACTORMUS, PORYGON2, DRAGONAIR, MINISTARE, 0
 ; Rocket Hideout B1F
-	db 22, DROWZEE, KOFFING, ARBOK, 0
+	db 37, HYPNO, WEEZING, ARBOK, 0
 ; Rocket Hideout B1F
-	db 21, RATICATE, RATICATE, 0
-	db 20, GRIMER, KOFFING, KOFFING, 0
-	db 19, RATTATA, RATICATE, RATICATE, RATTATA, 0
-	db 22, VOLTORB, KOFFING, 0
+	db 38, RATICATE_A, RATICATE, 0
+	db 37, MUK_A, WEEZING_G, BEEDRILL, 0
+	db 36, PINSIR, TENTACRUEL, DUGTRIO, SCYTHER, 0
+	db 38, ELECTRODE, MAGNEZONE, 0
 ; Rocket Hideout B2F
-	db 17, ZUBAT, KOFFING, GRIMER, CUBONE, RATICATE, 0
+	db 35, LUXWAN, KADABRA, GOLDUCK, MAROWAK_A, RATICATE, 0
 ; Rocket Hideout B3F
-	db 20, RATTATA, RATICATE, DROWZEE, 0
-	db 21, MACHOP, DROWZEE, 0
+	db 37, VENOMOTH, RATICATE, HYPNO, 0
+	db 38, MACHAMP, ANNIHILAPE, 0
 ; Rocket Hideout B4F
-	db 23, SANDSHREW, EKANS, SANDSLASH, 0
-	db 23, EKANS, SANDSHREW, ARBOK, 0
-	db 21, KOFFING, ZUBAT, 0
+	db 37, RHYDON, ARBOK, SANDSLASH, 0
+	db 37, WIGGLYTUFF, GOLEM, ARBOK, 0
+	db 38, WEEZING, CROBAT, 0
 ; Pokémon Tower 7F
-	db 25, ZUBAT, GRIMER, GOLBAT, 0
-	db 26, VOLTORB, KOFFING, DROWZEE, 0
-	db 23, ZUBAT, RATTATA, RATICATE, ZUBAT, 0
+	db 43, NIDOREIGN, MUK, GOLBAT, 0
+	db 43, ELECTRODE, WEEZING, HYPNO, 0
+	db 42, PORYGON2, GENGAR, MIMMEO, MUK, 0
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 59, PERSIAN, ARBOK, RATICATE, CROBAT, HYPNO, GUARDIA, 0
+	db 115, PERSIAN, ARBOK, RATICATE_A, CROBAT, HYPNO, GUARDIA, 0
 ; Silph Co. 2F - cut
-	db 29, CUBONE, ZUBAT, 0
-	db 25, GOLBAT, ZUBAT, ZUBAT, RATICATE, ZUBAT, 0
+	db 57, CUBONE, ZUBAT, 0
+	db 54, GOLBAT, ZUBAT, ZUBAT, RATICATE, ZUBAT, 0
 ; Silph Co. 3F
-	db 28, ELECTRODE, HYPNO, RATICATE, 0
+	db 56, ELECTRODE_H, HYPNO, RATICATE, 0
 ; Silph Co. 4F - cut
-	db 29, MACHOP, DROWZEE, 0
-	db 28, EKANS, ZUBAT, CUBONE, 0
+	db 57, MACHOP, DROWZEE, 0
+	db 56, EKANS, ZUBAT, CUBONE, 0
 ; Silph Co. 5F - cut
-	db 33, ARBOK, 0
-	db 33, HYPNO, 0
+	db 58, ARBOK, 0
+	db 58, HYPNO, 0
 ; Silph Co. 6F - cut
-	db 29, MACHOP, MACHOKE, 0
-	db 28, ZUBAT, ZUBAT, GOLBAT, 0
+	db 57, PRIMEAPE, MACHOKE, 0
+	db 56, SLOWBRO, GOLDUCK, GOLBAT, 0
 ; Silph Co. 7F
-	db 26, RATICATE, ARBOK, KOFFING, GOLBAT, 0
-	db 29, CUBONE, MACHOKE, ELECTRODE, 0
-	db 29, SANDSHREW, SANDSLASH, 0
+	db 55, RATICATE_A, ARBOK, PORYGON2, CACTORMUS, 0
+	db 56, GUARDIA, MACHAMP, ELECTRODE, 0
+	db 57, TRAMPEL, SANDSLASH, 0
 ; Silph Co. 8F - cut
-	db 26, RATICATE, ZUBAT, GOLBAT, RATTATA, 0
-	db 28, WEEZING, GOLBAT, KOFFING, 0
+	db 55, RATICATE, TRAMPEL, GOLBAT, SANDSLASH, 0
+	db 56, WEEZING, GOLBAT, KOFFING, 0
 ; Silph Co. 9F - cut
-	db 28, DROWZEE, GRIMER, MACHOP, 0
-	db 28, GOLBAT, DROWZEE, HYPNO, 0
+	db 56, DROWZEE, GRIMER, MACHOP, 0
+	db 56, GOLBAT, DROWZEE, HYPNO, 0
 ; Silph Co. 10F - cut
-	db 33, MACHOKE, 0
+	db 58, MACHOKE, 0
 ; Silph Co. 11F
-	db 25, RATTATA, ZUBAT, EKANS, RATICATE, 0
-	db 32, ELECTRODE, DROWZEE, MAROWAK, 0
+	db 55, PENDRAKEN, ARCANINE_H, SLOWKING_G, ELECTIVIRE, 0
+	db 56, ELECTRODE, MAGMORTAR, MAROWAK_A, 0
 
 ; Very varied, nothing to say
 CooltrainerMData:
 ; Viridian Gym
-	db 39, MAROWAK, NIDOKING, 0
+	db 79, GUARDIA, NIDOKING, 0
 ; Victory Road 3F
-	db 43, EXEGGUTOR, CLOYSTER, ARCANINE, 0
-	db 43, KINGLER, TENTACRUEL, BLASTOISE, 0
+	db 86, EXEGGUTOR_A, CLOYSTER, ARCANINE_H, 0
+	db 86, KINGLER, TENTACRUEL, SLOWBRO, 0
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, GOROCHU, VENUSAUR, ESPEON, CHARIZARD, SNORLAX, TOTARTLE, 0
+	db 120, GOROCHU, VENUSAUR, ESPEON, CHARIZARD, SNORLAX, TOTARTLE, 0
 ; Victory Road 1F
-	db 42, IVYSAUR, WARTORTLE, CHARMELEON, CHARIZARD, 0
+	db 85, GOROCHU, VENUSAUR, TOTARTLE, CHARIZARD, 0
 ; Unused
 	db 44, IVYSAUR, WARTORTLE, CHARMELEON, 0
 	db 49, NIDOKING, 0
 	db 44, KINGLER, CLOYSTER, 0
 ; Viridian Gym
-	db 39, SANDSLASH, DUGTRIO, 0
-	db 43, NIDOKING, 0
+	db 79, STEELIX, DUGTRIO, 0
+	db 80, NIDOKING, 0
 ; Celadon Condominiums Morimoto - Team is LGPE's with +10 Levels each.
-	db 64, KANGASKHAN, FLAREON, VAPOREON, JOLTEON, MACHAMP, DRAGONITE, 0
+	db 90, KANGASKHAN, FLAREON, VAPOREON, JOLTEON, MACHAMP, DRAGONITE, 0
 ; Brunswick Trail / Glade 
-	db 60, RATICATE, POLITOED, BUTTERFREE, WIGGLYTUFF, MACHAMP, RHYPERIOR, 0 ; Primo
-	db 57, PIDGEOT, VILEPLUME, GUARDIA, RAPIDASH, SLOWBRO, JOLTEON, 0 ; Trace
-	db 60, EXEGGUTOR, SLOWBRO, JYNX, 0 ; Will
+	db 95, RATICATE, POLITOED, BUTTERFREE, WIGGLYTUFF, MACHAMP, RHYPERIOR, 0 ; Primo
+	db 95, PIDGEOT, VILEPLUME, GUARDIA, RAPIDASH, SLOWBRO, JOLTEON, 0 ; Trace
+	db 98, EXEGGUTOR, SLOWBRO, JYNX, 0 ; Will
 
 ; Equally varied, nothing to say
 CooltrainerFData:
 ; Celadon Gym
-	db 24, CACTORMUS, GLOOM, 0
+	db 39, CACTORMUS, TANGROWTH, 0
 ; Victory Road 3F
-	db 43, BELLIGNAN, VICTREEBEL, 0
-	db 43, PARASECT, DEWGONG, CHANSEY, 0
+	db 87, BELLIGNAN, SLOWBRO_G, 0
+	db 86, PARASECT, DEWGONG, BLISSEY, 0
 ; Silph Gauntlet 5F (Safari Zone)
-	db 60, CLEFABLE, GENGAR, VICTREEBEL, NINETALES, KANGASKHAN, BLASTOISE, 0
+	db 120, CLEFABLE, GENGAR, VICTREEBEL, NINETALES, KANGASKHAN, BLASTOISE, 0
 ; Victory Road 1F
-	db 44, PERSIAN, NINETALES, BELLOSSOM, 0
+	db 86, PERSIAN_A, NINETALES_A, BELLOSSOM, 0
 ; Unused - reuse somewhere? celeste, etc?
 ;	db 45, IVYSAUR, VENUSAUR, 0
 ;	db 45, NIDORINA, NIDOQUEEN, 0
 ;	db 43, PERSIAN, NINETALES, RAICHU, 0
 ; Brunswick Glade/grotto etc, whatever desired 
-	db 60, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
+	db 97, BLASTOISE, VENUSAUR, CLEFABLE, ESPEON, 0 ; Leaf 
 
 ; "Dignified" Pokemon associated with the privileged class.
 GentlemanData:
 ; SS Anne 1F Rooms
-	db 18, GROWLITHE, CARAPTHOR, 0
-	db 19, NIDORINO, NIDORINA, 0
+	db 27, GROWLITHE, CARAPTHOR, 0
+	db 27, BEEDRILL, NIDOKING, 0
 ; SS Anne 2F Rooms/Vermilion Gym
-	db 23, PIKACHU, 0
+	db 32, PIKACHU, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 58, ARCANINE, NIDOQUEEN, MR_RIME, FEAROW, CARAPTHOR, RAPIDASH, 0
+	db 110, ARCANINE, NIDOQUEEN, MR_RIME, FEAROW, CARAPTHOR, RAPIDASH, 0
 ; SS Anne 2F Rooms
-	db 17, KOLTA, GROWLITHE, 0
+	db 27, MAGMAR, JYNX, 0
 ; Celeste Hill?
 	db 56, NIDOKING, GOLDUCK, GUARDIA, DODRIO, BEEDRILL, 0 ; Fuji
 	db 57, FEAROW, RAPIDASH, GOROCHU, ALAKAZAM, SYLVEON, 0 ; Fan Club chairman
 
 ChannelerData:
 ; Unused
-	db 22, GASTLY, 0
-	db 24, GASTLY, 0
-	db 23, GASTLY, GASTLY, 0
-	db 24, GASTLY, 0
+	db 45, PARASECT, 0
+	db 45, WIGGLYTUFF, 0
+	db 44, ARCANINE, HAUNTER, 0
+	db 45, MAROWAK_A, 0
 ; Pokémon Tower 3F
-	db 23, VULPIII, GASTLY, 0
-	db 24, VULPIX, 0
+	db 44, NINETALES, WIGGLYTUFF, 0
+	db 45, CHARIZARD, 0
 ; Silph Gauntlet 4F (Lavender Tower)
-	db 59, MUK, GUARDIA, ANNIHILAPE, HYPNO, NINETALES, GENGAR, 0
+	db 115, WIGGLYTUFF, GUARDIA, ANNIHILAPE, HYPNO, NINETALES, GENGAR, 0
 ; Pokémon Tower 3F
-	db 25, GASTLY, HAUNTER, 0
+	db 44, HAUNTER, HYPNO, 0
 ; Pokémon Tower 4F, now unused 
-	db 24, GASTLY, 0
-	db 23, GASTLY, GASTLY, 0
+	db 45, HYPNO, 0
+	db 44, KADABRA, HAUNTER, 0
 ; Unused
-	db 24, GASTLY, 0
+	db 45, ARBOK, 0
 ; Pokémon Tower 4F, now unused 
-	db 22, GASTLY, 0
+	db 45, NIDOQUEEN, 0
 ; Unused
-	db 24, GASTLY, 0
+	db 45, NIDOKING, 0
 ; Pokémon Tower 5F, now unused 
-	db 23, HAUNTER, 0
+	db 45, HAUNTER, 0
 ; Unused
-	db 24, GASTLY, 0
+	db 45, GASTLY, 0
 ; Pokémon Tower 5F, now unused 
-	db 22, GASTLY, 0
-	db 24, GASTLY, 0
-	db 22, HAUNTER, 0
+	db 45, GASTLY, 0
+	db 45, GASTLY, 0
+	db 45, HAUNTER, 0
 ; Pokémon Tower 6F
-	db 22, GASTLY, CUBONE, HAUNTER, 0
-	db 24, GASTLY, VULPIX, 0
-	db 30, HAUNTER, 0
+	db 43, ANNIHILAPE, MAROWAK_A, HAUNTER, 0
+	db 44, ARBOK, PARASECT, 0
+	db 45, GENGAR, 0
 ; Saffron Gym
-	db 34, DROWZEE, HYPNO, 0
-	db 38, ESPEON, 0
-	db 33, JYNX, EXEGGCUTE, KADABRA, 0
+	db 59, MR_RIME, HYPNO, 0
+	db 60, ESPEON, 0
+	db 58, JYNX, EXEGGUTOR, ALAKAZAM, 0
 
 ; Mostly Normal specialists
 StudentData:
 ; Viridian Pre-Gym
-	db 4, PIDGEY, RATTATA, 0
-	db 6, CLEFAIRY, 0
+	db 8, DODUO, MEOWTH, 0
+	db 9, CLEFABLE, 0
 ; Silph Gauntlet 1F (Viridian Forest)
-	db 56, WIGGLYTUFF, PIDGEOT, TRAMPEL, CLEFABLE, KANGASKHAN, RAMOOSE, 0   ; all Normal types that Yujirou doesn't use
+	db 100, WIGGLYTUFF, BLISSEY, TRAMPEL, CLEFABLE, KANGASKHAN, RAMOOSE, 0   ; all Normal types that Yujirou doesn't use
 ; Celadon University
-	db 22, BULBASAUR, CHARMANDER, SQUIRTLE, 0
+	db 45, BULBASAUR, CHARMANDER, SQUIRTLE, 0
 
 ; Mainly Water specialists, but can also use anything else that hits Fire super-effectively
 FirefighterData:
 ; Cerulean Gym
-	db 15, POLIWAG, CHEEP, SQUIRTLE, 0
+	db 18, HORSEA, CHEEP, SQUIRTLE, 0
 ; Silph Gauntlet 3F (S.S Anne)
-	db 58, BLASTOISE, OMASTAR, SANDSLASH, KINGDRA, GUARDIA, POLIWRATH, 0
+	db 110, BLASTOISE, OMASTAR, SANDSLASH, KINGDRA, GUARDIA, POLIWRATH, 0
 ; Cinnabar Volcano
-	db 36, WARTORTLE, MAROWAK, POLITOED, 0
-	db 35, SANDSLASH, OMANYTE, SEAKING, CROAKOZUNA, 0
-	db 38, SEADRA, BLASTOISE, 0
+	db 65, KABUTOPS, MAROWAK_A, POLITOED, 0
+	db 64, SANDSLASH_A, OMASTAR, SEAKING, CROAKOZUNA, 0
+	db 66, KINGDRA, BLASTOISE, 0
 
 JuniorData:
 ; to be removed
@@ -784,14 +784,14 @@ JuniorData:
 	
 JackData:
 ; Celadon Mansion Roof House
-	db 25, MANKEY, PORYGON, HITMONCHAN, SCYTHER, 0 ; Scyther is Kage-Maru. 
+	db 40, ANNIHILAPE, MELMETAL, GORILLAIMO, SCIZOR, 0 ; Scyther is Kage-Maru. 
 
 JessieJamesData:
-	db $FF, 17, MEOWTH, 14, EKANS, 14, KOFFING, 0 ; Mt. Moon
-	db $FF, 30, MEOWTH, 26, EKANS, 24, LICKITUNG, 26, KOFFING, 0 ; Rocket Hideout
-	db $FF, 34, MEOWTH, 30, ARBOK, 27, LICKITUNG, 30, WEEZING, 27, VICTREEBEL, 0 ; Pokemon Tower
-	db $FF, 42, MEOWTH, 38, ARBOK, 36, LICKILICKY, 38, WEEZING, 36, VICTREEBEL, 35, GYARADOS, 0 ; Silph Co.
-	db $FF, 72, MEOWTH, 67, ARBOK, 65, LICKILICKY, 67, WEEZING, 65, VICTREEBEL, 63, GYARADOS, 0 ; Citrine Rocket House
+	db $FF, 20, PERRSERKER, 19, EKANS, 19, KOFFING, 0 ; Mt. Moon
+	db $FF, 40, PERRSERKER, 39, ARBOK, 38, HYPNO, 38, WEEZING_G, 0 ; Rocket Hideout
+	db $FF, 48, PERRSERKER, 47, ARBOK, 47, HYPNO, 47, WEEZING_G, 48, VICTREEBEL, 0 ; Pokemon Tower
+	db $FF, 58, KINGDRA, 60, PERRSERKER, 59, ARBOK, 59, HYPNO, 59, WEEZING_G, 59, VICTREEBEL, 0 ; Silph Co.
+	db $FF, 101, PERRSERKER, 100, KINGDRA, 100, HYPNO, 100, WEEZING_G, 100, VICTREEBEL, 100, MEW, 0 ; Citrine Rocket House
 
 INCLUDE "data/trainers/scaled_parties.asm"
 INCLUDE "data/trainers/rival_parties.asm"

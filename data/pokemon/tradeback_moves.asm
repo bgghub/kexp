@@ -543,7 +543,7 @@ NidoreignTradebackMoves:
 	db 1, DISABLE
 	db 1, SUPERSONIC
 	db 1, LOVELY_KISS
-	db 1, ROAR
+	db 1, FALLING_DOWN
 	db 1, FLAMETHROWER
 	db 0
 
@@ -684,7 +684,7 @@ BalumbaTradebackMoves:
 	db 1, PSYBEAM ; Egg Move from Psychic-types.
 	db 1, HYPNOSIS ; Egg Move from Psychic-types, interesting buff.
 	db 1, MINIMIZE ; Egg Move from...Chansey?
-	db 1, SPLASH ; Egg Move
+	db 1, LOVELY_KISS ; Egg Move
 	db 0
 
 MagmarTradebackMoves:
@@ -1694,7 +1694,7 @@ GorochuTradebackMoves:
 	db 0
 
 CharmanderTradebackMoves:
-	db 1, SMOKESCREEN
+	db 1, FURY_SWIPES
 	db 1, DEFENSE_CURL
 	db 1, FIRE_PUNCH
 	db 1, HEADBUTT
@@ -1713,7 +1713,7 @@ SquirtleTradebackMoves:
 	db 0
 
 CharmeleonTradebackMoves:
-	db 1, SMOKESCREEN
+	db 1, FURY_SWIPES
 	db 1, DEFENSE_CURL
 	db 1, FIRE_PUNCH
 	db 1, HEADBUTT
@@ -1732,7 +1732,7 @@ WartortleTradebackMoves:
 	db 0
 
 CharizardTradebackMoves:
-	db 1, SMOKESCREEN
+	db 1, FURY_SWIPES
 	db 1, DEFENSE_CURL
 	db 1, FIRE_PUNCH
 	db 1, HEADBUTT
@@ -1785,19 +1785,19 @@ VileplumeTradebackMoves:
 
 BellsproutTradebackMoves:
 	db 1, FLASH
-	db 1, LOVELY_KISS
+	db 1, BITE
 	db 1, LEECH_LIFE
 	db 0
 
 WeepinbellTradebackMoves:
 	db 1, FLASH
-	db 1, LOVELY_KISS
+	db 1, BITE
 	db 1, LEECH_LIFE
 	db 0
 
 VictreebelTradebackMoves:
 	db 1, FLASH
-	db 1, LOVELY_KISS
+	db 1, BITE
 	db 1, LEECH_LIFE
 	db 0
 
@@ -2186,7 +2186,7 @@ MarowakATradebackMoves:
 	db 1, THUNDERPUNCH
 	db 1, FLAMETHROWER
 	db 1, SWORDS_DANCE
-	db 1, SCREECH
+	db 1, SMOKESCREEN
 	db 1, ROCK_SLIDE
 	db 1, FURY_ATTACK
 	db 0

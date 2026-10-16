@@ -189,6 +189,7 @@ AttackAnimationPointers:
 	dw ChargeBeamAnim
 	dw FlameChargeAnim
 	dw FallingDownAnim
+	dw LemonPledgeAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -1003,6 +1004,7 @@ LightScreenAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+LemonPledgeAnim:
 HazeAnim:
 	battle_anim NO_MOVE, SE_DARKEN_MON_PALETTE
 	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE

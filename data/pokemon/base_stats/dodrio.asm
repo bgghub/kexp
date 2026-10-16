@@ -1,9 +1,9 @@
 	db DEX_DODRIO ; pokedex id
 
-	db  60, 110,  70, 100,  60
+	db  70, 110,  70, 100,  70
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db FIGHTING, FLYING ; type
 	db 45 ; catch rate
 	db 158 ; base exp
 

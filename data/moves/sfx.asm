@@ -190,6 +190,7 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $10, $80 ; CHARGE_BEAM
 	db SFX_BATTLE_29,          $20, $c0 ; FLAME_CHARGE
 	db SFX_BATTLE_0D,          $00, $40 ; FALLING_DOWN
+	db SFX_BATTLE_0F,          $f8, $10 ; LEMON_PLEDGE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 

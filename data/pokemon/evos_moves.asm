@@ -550,11 +550,11 @@ GyaradosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, BITE
-	db 30, FURY_ATTACK
-	db 40, WHIRLWIND
-	db 50, HYDRO_PUMP
-	db 60, HYPER_BEAM
+	db 50, BITE
+	db 55, FURY_ATTACK
+	db 60, WHIRLWIND
+	db 65, HYDRO_PUMP
+	db 70, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
@@ -953,7 +953,7 @@ BuuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, SPIKE_CANNON
+	db 20, LEECH_LIFE
 	db 30, DISABLE
 	db 40, ICE_PUNCH
 	db 50, HAZE
@@ -1226,7 +1226,7 @@ JynxEvosMoves:
 	db 20, SPIKE_CANNON
 	db 30, ICE_PUNCH
 	db 40, BODY_SLAM
-	db 50, PSYCHIC_M
+	db 50, LEMON_PLEDGE
 	db 60, BLIZZARD
 	db 0
 
@@ -1776,10 +1776,11 @@ DodrioEvosMoves:
 ; Learnset
 	db 8, LOW_KICK
 	db 20, QUICK_ATTACK
-	db 30, RAGE
-	db 40, DRILL_PECK
+	db 31, ROLLING_KICK
+	db 40, SMART_STRIKE
 	db 50, TRI_ATTACK
 	db 60, AGILITY
+	db 70, HI_JUMP_KICK
 	db 0
 
 PrimeapeEvosMoves:
@@ -1998,11 +1999,11 @@ SnorlaxEvosMoves:
 
 MagikarpEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, GYARADOS
+	db EV_LEVEL, 50, GYARADOS
 	db 0
 ; Learnset
-	db 15, DRAGON_RAGE
-	db 25, BUBBLE
+	db 10, HYDRO_PUMP
+	db 20, DRAGON_RAGE
 	db 0
 
 CoinpurEvosMoves:

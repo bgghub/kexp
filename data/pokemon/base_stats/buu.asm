@@ -3,7 +3,7 @@
 	db  65,  93,  57,  95,  93
 	;   hp  atk  def  spd  spc
 
-	db ICE, ICE ; type
+	db ICE, BUG ; type
 	db 45 ; catch rate
 	db 167 ; base exp
 

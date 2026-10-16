@@ -195,7 +195,8 @@
 	const CHARGE_BEAM ; bb
 	const FLAME_CHARGE ; bc
 	const FALLING_DOWN ; bd
-	const STRUGGLE     ; be
+	const LEMON_PLEDGE ; be
+	const STRUGGLE     ; bf
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

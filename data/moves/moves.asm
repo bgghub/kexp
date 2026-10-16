@@ -200,5 +200,6 @@ Moves:
 	move CHARGE_BEAM,  SPECIAL_UP1_EFFECT,          50, ELECTRIC,      90,  5
 	move FLAME_CHARGE, SPEED_UP1_EFFECT,            50, FIRE,         100, 10
 	move FALLING_DOWN, THRASH_PETAL_DANCE_EFFECT,  120, ROCK,         100,  5
+	move LEMON_PLEDGE, DRAIN_HP_EFFECT,				90, DARK,         95,   5
 	move STRUGGLE,        RECOIL_EFFECT,            50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

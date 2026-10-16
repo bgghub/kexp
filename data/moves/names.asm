@@ -26,7 +26,7 @@ MoveNames:: ; 12chr limit
 	li "DOUBLE KICK"
 	li "MEGA KICK"
 	li "JUMP KICK"
-	li "ROLLING KICK"
+	li "VITAL THROW"
 	li "MUD-SLAP"
 	li "HEADBUTT"
 	li "HORN ATTACK"
@@ -189,5 +189,6 @@ MoveNames:: ; 12chr limit
 	li "CHARGE BEAM"
 	li "FLAME CHARGE"
 	li "FALLING DOWN"
+	li "LEMON PLEDGE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

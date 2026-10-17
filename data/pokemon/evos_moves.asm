@@ -550,11 +550,11 @@ GyaradosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 50, BITE
-	db 55, FURY_ATTACK
-	db 60, WHIRLWIND
-	db 65, HYDRO_PUMP
-	db 70, HYPER_BEAM
+	db 25, BITE
+	db 30, FURY_ATTACK
+	db 40, WHIRLWIND
+	db 50, HYDRO_PUMP
+	db 60, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
